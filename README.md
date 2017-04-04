@@ -6,7 +6,7 @@ You want to quickly determine if I'm a strong enough programmer to complete the 
 
 Here are some of my programming highlights.
 
-## Project Euler in Python3 ([code](#TODO))
+## Project Euler in Python3 ([code](/euler-python3/))
 I've solved 119 Project Euler problems in **Python3**, putting me in the Top 1% of solvers:
 
 ![Project Euler badge: 119 solved](https://projecteuler.net/profile/hoxiea2.png "Project Euler badge")
