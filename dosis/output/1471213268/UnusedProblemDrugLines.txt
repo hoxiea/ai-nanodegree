@@ -1,6 +1,0 @@
-Lines From Your Problem Drug File That Didn't Match Any Drugs
-
-RISPERIDONE 0.25
-SULFAMETHOXAZOLE-TMP DS
-THERAPEUTIC VIT
-THERAPEUTIC-M
