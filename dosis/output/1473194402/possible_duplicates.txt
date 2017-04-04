@@ -1,0 +1,7 @@
+Merged Usage-File Duplicates Based on Drug Name and Strength
+
+       NDC11 | Drug Name                          | Quant.
+-----------------------------------------------------------
+#49884067801 | NIFEDIPINE ER 60MG*DNC* TAB        |    140
+ 62175026155 | NIFEDIPine ER 60MG*DNC* TAB        |    669
+

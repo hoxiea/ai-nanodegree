@@ -1,0 +1,13 @@
+Merged Usage-File Duplicates Based on Drug Name and Strength
+
+       NDC11 | Drug Name                          | Quant.
+-----------------------------------------------------------
+#00172572880 | FAMOTIDINE 20MG  TAB               |   5451
+ 61442012110 | FAMOTIDINE 20 MG TAB               |     60
+
+#00904518252 | MELATONIN 3 MG TAB                 |   2623
+ 07431207903 | MELATONIN 3 MG TABLET              |     58
+
+#49884067801 | NIFEDIPINE ER 60MG*DNC* TAB        |    140
+ 62175026155 | NIFEDIPine ER 60MG*DNC* TAB        |    669
+

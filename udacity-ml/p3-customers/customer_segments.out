@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Creating Customer Segments}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Data Exploration}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Feature Transformation}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.2.1}{PCA}{subsection.1.2}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.2}{PCA: Take 2 \(Normalized Data\)}{subsection.1.2}% 5
+\BOOKMARK [3][-]{subsubsection.1.2.3}{ICA}{subsection.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.3}{Clustering}{section.1}% 7
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Choose a Cluster Type}{subsection.1.3}% 8
+\BOOKMARK [3][-]{subsubsection.1.3.2}{How Many Clusters?}{subsection.1.3}% 9
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Conclusions}{subsection.1.3}% 10

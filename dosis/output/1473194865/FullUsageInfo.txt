@@ -1,0 +1,1119 @@
+Usage Summary
+
+Rank |        NDC11 | Drug Name                          | Quant. |      % | Cuml %
+------------------------------------------------------------------------------------
+   1 |  00904198280 | ACETAMINOPHEN 325MG TAB            |  11808 |   1.65 |   1.65
+   2 |  00054022031 | QUETIAPINE FUM 25 MG TAB           |  11368 |   1.59 |   3.24
+   3 |  65862065360 | MEMANTINE 10 MG TAB                |  11318 |   1.58 |   4.83
+   4 |  00228253996 | CARB-LEVO 25-100 TAB               |  10845 |   1.52 |   6.35
+   5 |  00904198880 | ACETAMINOPHEN 500MG TAB            |  10602 |   1.48 |   7.83
+   6 |  00603017932 | FERROUS SULF 325 MG TAB            |  10226 |   1.43 |   9.26
+   7 |  00054010128 | AMLODIPINE 5MG TAB                 |   9824 |   1.38 |  10.64
+   8 |  00536408610 | SENEXON-S TAB                      |   8719 |   1.22 |  11.86
+   9 |  62175061743 | PANTOPRAZOLE 40MG*DNC*TAB          |   8078 |   1.13 |  12.99
+  10 |  00904421713 | VITAMIN B-12 1000 MCG TAB          |   7870 |    1.1 |  14.09
+  11 |  65862059805 | TAMSULOSIN HCL 0.4 MG*DNC*         |   7118 |      1 |  15.09
+  12 |  60505011208 | GABAPENTIN 100 MG  CAP             |   6798 |   0.95 |  16.04
+  13 |  57896050410 | MULTIVITAMIN ONE-DAILY             |   6610 |   0.93 |  16.97
+  14 |  60505025303 | CLOPIDOGREL 75 MG TAB              |   6507 |   0.91 |  17.88
+  15 |  68382075810 | METFORMIN HCL 500 MG TAB           |   6383 |   0.89 |  18.77
+  16 |  00781571010 | POTASSIUM CL 10MEQ ER*DNC*         |   6180 |   0.87 |  19.64
+  17 |  60505313208 | QUETIAPINE FUM 50 MG TAB           |   6173 |   0.86 |   20.5
+  18 |  00904628889 | ASPIRIN 81MG CHEW TAB              |   6154 |   0.86 |  21.36
+  19 |  00904643480 | SENNA 8.6 MG TAB                   |   6074 |   0.85 |  22.21
+  20 |  00603002632 | ASPIRIN  81MG  EC  TAB *DNC        |   5971 |   0.84 |  23.05
+  21 |  65862006399 | METOPROLOL TART 50 MG TAB          |   5912 |   0.83 |  23.88
+  22 |  16729000517 | SIMVASTATIN 20 MG TAB              |   5629 |   0.79 |  24.67
+  23 |  60505011308 | GABAPENTIN 300 MG CAP              |   5501 |   0.77 |  25.44
+  24 | #00172572880 | FAMOTIDINE 20MG  TAB               |   5451 |   0.76 |   26.2
+  25 |  00527134210 | LEVOTHYROXINE 50 MCG TAB           |   5388 |   0.75 |  26.95
+  26 |  60505257808 | ATORVASTATIN 10MG TAB              |   5303 |   0.74 |   27.7
+  27 |  13668003605 | RISPERIDONE 0.5 MG TAB             |   5096 |   0.71 |  28.41
+  28 |  60505257908 | ATORVASTATIN 20MG TAB              |   4957 |   0.69 |   29.1
+  29 |  65162036111 | FOLIC ACID 1 MG TABLET             |   4881 |   0.68 |  29.79
+  30 |  00527134310 | LEVOTHYROXINE 75 MCG TAB           |   4848 |   0.68 |  30.47
+  31 |  65862001205 | SERTRALINE 50 MG TAB               |   4794 |   0.67 |  31.14
+  32 |  00054010228 | AMLODIPINE 10MG TAB                |   4755 |   0.67 |   31.8
+  33 |  13668010210 | DONEPEZIL 5 MG TAB                 |   4691 |   0.66 |  32.46
+  34 |  00904615760 | VITAMIN D3 2000 UNIT TAB           |   4599 |   0.64 |   33.1
+  35 |  00378207510 | LISINOPRIL 20 MG TAB               |   4490 |   0.63 |  33.73
+  36 |  60505024708 | MIRTAZAPINE 15 MG TAB              |   4434 |   0.62 |  34.35
+  37 |  13668001005 | CITALOPRAM 20MG TAB                |   4188 |   0.59 |  34.94
+  38 |  65862006299 | METOPROLOL TART 25 MG TAB          |   4098 |   0.57 |  35.51
+  39 |  13668013605 | ESCITALOPRAM 10 MG TAB             |   4022 |   0.56 |  36.08
+  40 |  00904582460 | VITAMIN D3 1000 IU TAB             |   4018 |   0.56 |  36.64
+  41 |  68180051403 | LISINOPRIL 10 MG TAB               |   3918 |   0.55 |  37.19
+  42 |  04142000007 | FLORASTOR 250 MG CAPS              |   3899 |   0.55 |  37.73
+  43 |  00904052380 | VITAMIN C 500 MG TAB               |   3879 |   0.54 |  38.28
+  44 |  55111053205 | DIVALPROEX 125 MG *DNC*CAP         |   3820 |   0.53 |  38.81
+  45 |  49884082501 | METOPROLOL SUC 25 MG *DNC*         |   3740 |   0.52 |  39.33
+  46 |  00527134110 | LEVOTHYROXINE 25 MCG TAB           |   3708 |   0.52 |  39.85
+  47 |  00781107810 | ATENOLOL 25 MG TAB                 |   3605 |    0.5 |  40.36
+  48 |  60505006501 | OMEPRAZOLE DR 20MG*DNC* CAP        |   3558 |    0.5 |  40.86
+  49 |  65862024608 | LEVETIRACETAM 500MG TAB            |   3553 |    0.5 |  41.35
+  50 |  50111043303 | TRAZODONE 50MG  TAB                |   3529 |   0.49 |  41.85
+  51 |  00904323392 | CALCIUM 600+D 400 IU TAB           |   3504 |   0.49 |  42.34
+  52 |  45802065087 | LORATADINE 10MG TABLET             |   3366 |   0.47 |  42.81
+  53 |  53746054205 | POTASSIUM CL ER10MEQ  CAP *        |   3349 |   0.47 |  43.28
+  54 |  65862014205 | CARVEDILOL 3.125 MG TAB            |   3324 |   0.47 |  43.74
+  55 |  13668010310 | DONEPEZIL 10 MG TAB                |   3245 |   0.45 |   44.2
+  56 |  13666813705 | ESCITALOPRAM 20 MG TAB             |   3234 |   0.45 |  44.65
+  57 |  74312002610 | PROBIOTIC (ACIDOLACTO)(ORI         |   3120 |   0.44 |  45.09
+  58 |  65862020299 | LOSARTAN 50 MG TAB                 |   3094 |   0.43 |  45.52
+  59 |  65862001305 | SERTRALINE 100 MG TAB              |   2966 |   0.42 |  45.94
+  60 |  60505258008 | ATORVASTATIN 40MG TAB              |   2903 |   0.41 |  46.34
+  61 |  31722023710 | AMLODIPINE 2.5 MG TAB              |   2889 |    0.4 |  46.75
+  62 |  65862000505 | CITALOPRAM 10 MG TAB               |   2862 |    0.4 |  47.15
+  63 |  57664047458 | METFORMIN 1000 MG TAB              |   2806 |   0.39 |  47.54
+  64 |  00603497532 | OXYBUTYNIN 5 MG TAB                |   2797 |   0.39 |  47.93
+  65 |  29300013510 | CLONIDINE 0.1 MG TAB               |   2791 |   0.39 |  48.32
+  66 |  16729009016 | FINASTERIDE 5MG *DNC*TAB           |   2788 |   0.39 |  48.71
+  67 |  00904323292 | CALCIUM 600 MG TABLET              |   2763 |   0.39 |   49.1
+  68 |  00904188380 | OYST CAL 500MG     TAB             |   2753 |   0.39 |  49.49
+  69 |  65862014305 | CARVEDILOL 6.25 MG TABLET          |   2750 |   0.39 |  49.87
+  70 |  00527132401 | DIGOXIN 125 MCG TAB                |   2699 |   0.38 |  50.25
+  71 |  60258018501 | POLY IRON 150 CAPS                 |   2690 |   0.38 |  50.63
+  72 |  16729000617 | SIMVASTATIN 40 MG TAB              |   2685 |   0.38 |     51
+  73 |  60505313308 | QUETIAPINE FUM 100MG TAB           |   2653 |   0.37 |  51.37
+  74 |  49884082601 | METOPROLOL SUC 50 MG *DNC*         |   2635 |   0.37 |  51.74
+  75 |  00904598660 | VITAMIN D3 5000 UNIT CAP           |   2634 |   0.37 |  52.11
+  76 |  53746025310 | RANITIDINE 150 MG TAB              |   2629 |   0.37 |  52.48
+  77 | #00904518252 | MELATONIN 3 MG TAB                 |   2623 |   0.37 |  52.85
+  78 |  30761015540 | MELATONIN 5 MG TABLET              |   2622 |   0.37 |  53.21
+  79 |  60505014601 | OMEPRAZOLE DR 40MG*DNC*CAP         |   2622 |   0.37 |  53.58
+  80 |  13668003705 | RISPERIDONE 1 MG TAB               |   2592 |   0.36 |  53.94
+  81 |  68180051303 | LISINOPRIL 5 MG TAB                |   2565 |   0.36 |   54.3
+  82 |  62756079813 | DIVALPROEX  DR 500MG TAB           |   2422 |   0.34 |  54.64
+  83 |  16729000417 | SIMVASTATIN 10 MG TAB              |   2401 |   0.34 |  54.98
+  84 |  00527134510 | LEVOTHYROXINE  100 MCG TAB         |   2379 |   0.33 |  55.31
+  85 |  31722070010 | LOSARTAN 25 MG TAB                 |   2365 |   0.33 |  55.64
+  86 |  53746051101 | SPIRONLACTONE 25MG TAB             |   2360 |   0.33 |  55.97
+  87 |  13668008105 | MONTELUKAST 10 MG TAB              |   2353 |   0.33 |   56.3
+  88 |  00904546080 | OYST CAL 500+D200IU TAB            |   2344 |   0.33 |  56.63
+  89 |  00527134410 | LEVOTHYROXINE 88 MCG TAB           |   2322 |   0.33 |  56.96
+  90 |  68382003205 | DIVALPROEX DR 250 MG   TAB         |   2309 |   0.32 |  57.28
+  91 |  65862065260 | MEMANTINE 5 MG TAB                 |   2219 |   0.31 |  57.59
+  92 |  00591065705 | BUSpirONE HCL 5 MG TABLET          |   2066 |   0.29 |  57.88
+  93 |  00003089321 | ELIQUIS 2.5 MG TABLET              |   2006 |   0.28 |  58.16
+  94 |  23155000210 | HYDRALAZine 25 MG TAB              |   2006 |   0.28 |  58.44
+  95 |  65862001105 | SERTRALINE 25 MG TAB               |   1949 |   0.27 |  58.71
+  96 |  65862014405 | CARVEDILOL 12.5MG    TAB           |   1909 |   0.27 |  58.98
+  97 |  60505014101 | GLIPIZide 5 MG TABLET              |   1900 |   0.27 |  59.25
+  98 |  00904585260 | CETIRIZINE 10 MG TAB               |   1895 |   0.27 |  59.51
+  99 |  00603240632 | BACLOFEN 10 MG TABLET              |   1891 |   0.26 |  59.78
+ 100 |  00093221005 | SUCRALFATE 1 GM TAB                |   1842 |   0.26 |  60.03
+ 101 |  00527134710 | LEVOTHYROXINE 125 MCG TAB          |   1838 |   0.26 |  60.29
+ 102 |  30768003304 | FISH OIL 1000 MG CAP *CP*          |   1823 |   0.26 |  60.55
+ 103 |  68382022705 | AMIODARONE 200 MG TAB              |   1788 |   0.25 |   60.8
+ 104 |  23155000310 | HYDRALAZine 50 MG TAB              |   1770 |   0.25 |  61.05
+ 105 |  68462012605 | GABAPENTIN 600 MG TAB              |   1732 |   0.24 |  61.29
+ 106 |  60505017009 | PRAVASTATIN SOD 40 MG TAB          |   1694 |   0.24 |  61.53
+ 107 |  00904548652 | CERTAVITE SR +LUTEIN TAB           |   1670 |   0.23 |  61.76
+ 108 |  50111043403 | TRAZODONE 100MG TAB                |   1608 |   0.23 |  61.98
+ 109 |  60258017101 | MAG OXIDE 400 MG TAB               |   1598 |   0.22 |  62.21
+ 110 |  00603333932 | DIPHENHYDRAMINE 25 MG CAP          |   1592 |   0.22 |  62.43
+ 111 |  00904201380 | ASPIRIN  325MG EC   TAB *DN        |   1590 |   0.22 |  62.65
+ 112 |  65862019399 | FLUOXETINE 20 MG CAP               |   1589 |   0.22 |  62.88
+ 113 |  60505024808 | MIRTAZAPINE 30MG TAB               |   1586 |   0.22 |   63.1
+ 114 |  00781150610 | ATENOLOL 50 MG TAB                 |   1559 |   0.22 |  63.32
+ 115 |  62756040203 | PHENYTOIN 100 MG CAP*DNC*          |   1555 |   0.22 |  63.53
+ 116 |  63824000850 | MUCINEX ER 600 MG *DNC*TAB         |   1546 |   0.22 |  63.75
+ 117 |  47469000928 | OMEGA-3 1000 MG SOFTGEL            |   1504 |   0.21 |  63.96
+ 118 |  00904641292 | CALCIUM  500MG CHEW                |   1502 |   0.21 |  64.17
+ 119 |  00591065805 | BUSpirONE HCL 10 MG TAB            |   1487 |   0.21 |  64.38
+ 120 |  55111072910 | ALLOPURINOL 100MG    TAB           |   1436 |    0.2 |  64.58
+ 121 |  65162054450 | PRIMIDONE 50 MG TAB                |   1412 |    0.2 |  64.78
+ 122 |  29300012810 | HCTZ 25 MG TABLET                  |   1410 |    0.2 |  64.98
+ 123 |  62175012841 | ISOSORBIDE MN ER 30MG *DNC*        |   1401 |    0.2 |  65.17
+ 124 |  13668013501 | ESCITALOPRAM 5 MG TAB              |   1400 |    0.2 |  65.37
+ 125 |  60505016909 | PRAVASTATIN SOD 20 MG TAB          |   1387 |   0.19 |  65.56
+ 126 |  00003089421 | ELIQUIS 5 MG TABLET                |   1376 |   0.19 |  65.75
+ 127 |  13107000105 | MIRTAZAPINE 7.5MG TAB              |   1375 |   0.19 |  65.95
+ 128 |  00591071805 | BUSpirONE HCL 15 MG TAB            |   1369 |   0.19 |  66.14
+ 129 |  00185064010 | LISINOPRIL 40 MG TAB               |   1362 |   0.19 |  66.33
+ 130 |  69315021001 | METHENAMINE HIPP 1GM TAB           |   1345 |   0.19 |  66.52
+ 131 |  00603420928 | LISINOPRIL 2.5 MG TAB              |   1326 |   0.19 |   66.7
+ 132 |  00904792780 | BISACODYL 5MG EC*DNC*TAB           |   1316 |   0.18 |  66.89
+ 133 |  65862014505 | CARVEDILOL 25MG    TAB             |   1316 |   0.18 |  67.07
+ 134 |  60505025203 | TIZANIDINE HCL 4 MG TABLET         |   1304 |   0.18 |  67.25
+ 135 |  49348052934 | LOPERAMIDE 2 MG TAB                |   1303 |   0.18 |  67.44
+ 136 |  00603240732 | BACLOFEN 20 MG TABLET              |   1289 |   0.18 |  67.62
+ 137 |  00904320713 | VITAMIN B-12 500 MCG TABLET        |   1280 |   0.18 |   67.8
+ 138 |  00536468010 | VITAMIN B-1 100MG TABLET           |   1277 |   0.18 |  67.98
+ 139 |  00536101901 | SIMETHICONE  CHEW 80MG             |   1276 |   0.18 |  68.15
+ 140 |  13107001401 | GLYCOPYRROLATE 1 MG TABLET         |   1274 |   0.18 |  68.33
+ 141 |  60505011405 | GABAPENTIN 400 MG CAP              |   1258 |   0.18 |  68.51
+ 142 |  60505014202 | GLIPIZide 10 MG TABLET             |   1216 |   0.17 |  68.68
+ 143 |  13668011105 | DULOXETINE  DR 60MG *DNC*CP        |   1150 |   0.16 |  68.84
+ 144 |  00904576960 | APAP 650 MG  ARTH CAPLETS          |   1140 |   0.16 |     69
+ 145 |  00527134610 | LEVOTHYROXINE 112MCG TAB           |   1128 |   0.16 |  69.16
+ 146 |  37864000021 | DOC SODIUM 100 MG TAB              |   1121 |   0.16 |  69.31
+ 147 |  49884012301 | LABETALOL 200MG TAB                |   1116 |   0.16 |  69.47
+ 148 |  00832108000 | BENZTROPINE MES 0.5 MG TAB         |   1114 |   0.16 |  69.63
+ 149 |  00065804603 | ICAPS AREDS SOFTGEL*CP*            |   1113 |   0.16 |  69.78
+ 150 |  50458057890 | XARELTO 15MG TAB                   |   1088 |   0.15 |  69.93
+ 151 |  24208069762 | PRESERVISON AREDS 2 CAP            |   1086 |   0.15 |  70.09
+ 152 |  74312004233 | CALCIUM 600+VIT D3 800 TAB         |   1076 |   0.15 |  70.24
+ 153 |  00904791580 | IBUPROFEN 200MG TAB                |   1076 |   0.15 |  70.39
+ 154 |  68382005105 | MELOXICAM 15 MG TABLET             |   1065 |   0.15 |  70.54
+ 155 |  13107015590 | PAROXETINE HCL 20 MG TAB           |   1058 |   0.15 |  70.69
+ 156 |  60505267108 | ATORVASTATIN 80MG TAB              |   1056 |   0.15 |  70.83
+ 157 |  51248015003 | VESICARE 5 MG TABLET               |   1053 |   0.15 |  70.98
+ 158 |  60505311108 | OLANZAPINE 5 MG TAB                |   1043 |   0.15 |  71.13
+ 159 |  50458057990 | XARELTO 20 MG TABLET               |   1039 |   0.15 |  71.27
+ 160 |  45802057178 | FEXOFENADINE  180 MG TAB           |   1026 |   0.14 |  71.42
+ 161 |  03076803553 | CO Q-10 100 MG SOFTGEL*CP*         |   1020 |   0.14 |  71.56
+ 162 |  16729018217 | HCTZ 12.5MG TAB                    |   1016 |   0.14 |   71.7
+ 163 |  00527111610 | SODIUM CHLORIDE 1000 MG TAB        |   1010 |   0.14 |  71.84
+ 164 |  23155050110 | HYDROXYZine HCL 25 MG TAB          |   1001 |   0.14 |  71.98
+ 165 |  45963053830 | ONDANSETRON HCL 4 MG TAB           |    994 |   0.14 |  72.12
+ 166 |  68382005001 | MELOXICAM 7.5 MG TABLET            |    981 |   0.14 |  72.26
+ 167 |  00832108110 | BENZTROPINE MES 1 MG TABLET        |    971 |   0.14 |  72.39
+ 168 |  65862022701 | LAMOTRIGINE 25MG TAB               |    964 |   0.13 |  72.53
+ 169 |  49884012201 | LABETALOL HCL 100MG TAB            |    958 |   0.13 |  72.66
+ 170 |  59746017210 | PREDNISONE 5 MG  TAB               |    954 |   0.13 |   72.8
+ 171 |  57237000299 | HCTZ 12.5 CAP                      |    953 |   0.13 |  72.93
+ 172 |  03076800601 | B-COMPLEX TABLET                   |    948 |   0.13 |  73.06
+ 173 |  00245021211 | MIDODRINE HCL 5 MG TAB             |    928 |   0.13 |  73.19
+ 174 |  00536417841 | I-VITE PROTECT TABLET              |    912 |   0.13 |  73.32
+ 175 |  59746017310 | PREDNISONE 10 MG TAB               |    907 |   0.13 |  73.45
+ 176 |  00074780419 | K-TAB ER 10 MEQ *DNC* TAB          |    902 |   0.13 |  73.57
+ 177 |  00185012905 | BUMETANIDE 1 MG                    |    900 |   0.13 |   73.7
+ 178 |  49884029005 | MEGESTROL 40MG TAB                 |    887 |   0.12 |  73.82
+ 179 |  13668001105 | CITALOPRAM 40MG TAB                |    880 |   0.12 |  73.95
+ 180 |  00406048410 | ACETA-COD 300/30 MG TAB            |    880 |   0.12 |  74.07
+ 181 |  65862024708 | LEVETIRACETAM 750 MG TAB           |    877 |   0.12 |  74.19
+ 182 |  13668011005 | DULOXETINE  DR 30 MG *DNC*         |    874 |   0.12 |  74.32
+ 183 |  59746017110 | PREDNISONE 1MG  TAB                |    870 |   0.12 |  74.44
+ 184 |  31722022505 | GEMFIBROZIL 600 MG TABLET          |    862 |   0.12 |  74.56
+ 185 |  13668003805 | RISPERIDONE 2 MG TAB               |    862 |   0.12 |  74.68
+ 186 |  65862024508 | LEVETIRACETAM 250 MG TAB           |    858 |   0.12 |   74.8
+ 187 |  00597007541 | SPIRIVA 18 MCG CP-HAND (30P        |    840 |   0.12 |  74.92
+ 188 |  00093031801 | DILTIAZEM 30 MG TAB                |    840 |   0.12 |  75.03
+ 189 |  00006011254 | JANUVIA 50 MG TAB                  |    840 |   0.12 |  75.15
+ 190 |  00904585692 | CALCIUM 600 + VIT  D 200           |    836 |   0.12 |  75.27
+ 191 |  65162044210 | MECLIZINE  25 MG TAB               |    819 |   0.11 |  75.38
+ 192 |  00904501360 | VITAMIN C 1000 MG TABLET           |    808 |   0.11 |   75.5
+ 193 |  65862019201 | FLUOXETINE 10 MG CAP               |    794 |   0.11 |  75.61
+ 194 |  10370051150 | DIVALPROEX ER 500MG*DNC* TA        |    792 |   0.11 |  75.72
+ 195 |  53746046505 | IBUPROFEN 600 MG*DNC* TAB          |    785 |   0.11 |  75.83
+ 196 |  00904582360 | VITAMIN D 400 UNITS TAB            |    782 |   0.11 |  75.94
+ 197 |  57896090110 | ASPIRIN 325 MG TAB                 |    770 |   0.11 |  76.05
+ 198 |  03076815605 | VITAMIN D3 1000 SOFTGEL CAP        |    770 |   0.11 |  76.15
+ 199 |  68462012701 | GABAPENTIN 800 MG TAB              |    766 |   0.11 |  76.26
+ 200 |  40985021324 | CRANBERRY  200 MG CAP              |    764 |   0.11 |  76.37
+ 201 |  65862022801 | LAMOTRIGINE 100 MG TABLET          |    756 |   0.11 |  76.47
+ 202 |  65162037150 | OXYBUTYNIN ER 5MG*DNC* TAB         |    755 |   0.11 |  76.58
+ 203 |  23155000110 | HYDRALAZine 10 MG TAB              |    748 |    0.1 |  76.68
+ 204 |  00378007801 | CARB-LEVO 10-100 TAB               |    738 |    0.1 |  76.79
+ 205 |  00536150060 | REGULOID CAP                       |    736 |    0.1 |  76.89
+ 206 |  62756079613 | DIVALPROEX  125 MG   DR TAB        |    736 |    0.1 |  76.99
+ 207 |  00536430605 | FIBER-LAX TABS                     |    732 |    0.1 |   77.1
+ 208 |  66582041454 | ZETIA 10 MG TABLET                 |    731 |    0.1 |   77.2
+ 209 |  00093031105 | LOPERAMIDE 2 MG CAP                |    730 |    0.1 |   77.3
+ 210 |  65862057290 | VALSARTAN 160 MG TAB               |    724 |    0.1 |   77.4
+ 211 |  00228254050 | CARB-LEVO 25-250 TAB               |    720 |    0.1 |   77.5
+ 212 |  00378161005 | DICYCLOMINE 10 MG CAPS             |    719 |    0.1 |   77.6
+ 213 |  00597013560 | PRADAXA 150 MG UD CAP              |    716 |    0.1 |   77.7
+ 214 |  13668003905 | RISPERIDONE 3 MG TAB               |    715 |    0.1 |   77.8
+ 215 |  53746027205 | SMZ-TMP DS TAB 800-160             |    709 |    0.1 |   77.9
+ 216 |  49884082701 | METOPROLOL SUC 100MG*DNC*          |    705 |    0.1 |     78
+ 217 |  65162076611 | WARFARIN SOD 5 MG TAB              |    697 |    0.1 |   78.1
+ 218 |  00185041505 | BUPropION SR150 MG *DNC*           |    690 |    0.1 |   78.2
+ 219 |  00536509008 | I-VITE TABLET                      |    680 |    0.1 |  78.29
+ 220 |  00115703302 | FLUDROCORTISONE 0.1 MG TAB         |    677 |   0.09 |  78.39
+ 221 |  68382003510 | VENLAFAXINE ER 75 MG*DNC* C        |    668 |   0.09 |  78.48
+ 222 |  10370010150 | BUPropION XL150 MG *DNC*           |    664 |   0.09 |  78.57
+ 223 |  00781151601 | POTASSIUM CL ER 8MEQ  TAB          |    663 |   0.09 |  78.67
+ 224 |  69097012315 | TOPIRAMATE 50 MG*DNC*TAB           |    658 |   0.09 |  78.76
+ 225 |  02507716971 | ESTER C 500MG TAB                  |    658 |   0.09 |  78.85
+ 226 |  49884082909 | DILTIAZEM CD  120 MG CAP *D        |    652 |   0.09 |  78.94
+ 227 |  00054009825 | OXCARBAZEPINE 300 MG TAB           |    648 |   0.09 |  79.03
+ 228 |  51991074990 | DUTASTERIDE 0.5 MG CAP             |    647 |   0.09 |  79.12
+ 229 |  00093725652 | GLIMEPIRIDE 4 MG TABLET            |    628 |   0.09 |  79.21
+ 230 |  68462019590 | PRAVASTATIN SOD 10 MG TAB          |    627 |   0.09 |   79.3
+ 231 |  00185007210 | LOVASTATIN 20 MG TAB               |    620 |   0.09 |  79.39
+ 232 |  00832108210 | BENZTROPINE MES 2 MG TAB           |    613 |   0.09 |  79.47
+ 233 |  00603576928 | SOTALOL 80 MG TAB                  |    612 |   0.09 |  79.56
+ 234 |  65862006499 | METOPROLOL TART 100 MG             |    608 |   0.09 |  79.64
+ 235 |  60505313508 | QUETIAPINE FUM 200 MG TAB          |    604 |   0.08 |  79.73
+ 236 |  65162076311 | WARFARIN SOD 2.5 MG TAB            |    602 |   0.08 |  79.81
+ 237 |  03160402717 | VITAMIN B-12 1000 MCG SUBLI        |    600 |   0.08 |   79.9
+ 238 |  65862065401 | ENTACAPONE 200 MG TAB              |    596 |   0.08 |  79.98
+ 239 |  65862001901 | CEPHALEXIN 500 MG CAP              |    594 |   0.08 |  80.06
+ 240 |  54505033105 | HYDROCORTISONE 5 MG TAB            |    592 |   0.08 |  80.14
+ 241 |  64679092503 | ENALAPRIL 10 MG TAB                |    590 |   0.08 |  80.23
+ 242 |  53746046405 | IBUPROFEN 400 MG TAB               |    590 |   0.08 |  80.31
+ 243 |  37000014343 | ALIGN CAPSULE(ORIG 28'S)           |    588 |   0.08 |  80.39
+ 244 |  10370051050 | DIVALPROEX  ER 250MG*DNC*TA        |    584 |   0.08 |  80.47
+ 245 |  00006027754 | JANUVIA 100 MG TAB                 |    582 |   0.08 |  80.56
+ 246 |  57896084501 | CRANBERRY 450 MG TAB               |    581 |   0.08 |  80.64
+ 247 |  00054009725 | OXCARBAZEPINE 150 MG TAB           |    578 |   0.08 |  80.72
+ 248 |  49884001908 | OMEGA-3 ETHYL ESTER 1 GM CA        |    578 |   0.08 |   80.8
+ 249 |  68382003416 | VENLAFAXINE ER 37.5MG*DNC*         |    576 |   0.08 |  80.88
+ 250 |  65162037250 | OXYBUTYNIN ER10MG *DNC*TAB         |    574 |   0.08 |  80.96
+ 251 |  65862057190 | VALSARTAN 80 MG TAB                |    572 |   0.08 |  81.04
+ 252 |  00904527260 | CALCITRATE + D 315 MG-250          |    570 |   0.08 |  81.12
+ 253 |  00832061115 | CARBAMAZEpine 200 MG TAB           |    569 |   0.08 |   81.2
+ 254 |  65862022960 | LAMOTRIGINE 150 MG TABLET          |    560 |   0.08 |  81.28
+ 255 |  00527135001 | LEVOTHYROXINE 175 MCG TAB          |    558 |   0.08 |  81.36
+ 256 |  60505015801 | BUPropION HCL 75 MG TAB            |    557 |   0.08 |  81.43
+ 257 |  16729000101 | GLIMEPIRIDE 1 MG TAB               |    556 |   0.08 |  81.51
+ 258 |  00378018105 | ALLOPURINOL 300 MG      TAB        |    555 |   0.08 |  81.59
+ 259 |  00245021311 | MIDODRINE HCL 10 MG TAB            |    552 |   0.08 |  81.67
+ 260 |  00597014090 | TRADJENTA 5 MG TAB                 |    552 |   0.08 |  81.74
+ 261 |  30761004012 | CRANBERRY 250MG CAP                |    551 |   0.08 |  81.82
+ 262 |  65162044110 | MECLIZINE 12.5 MG TAB              |    550 |   0.08 |   81.9
+ 263 |  68382003616 | VENLAFAXINE ER 150 MG *DNC*        |    542 |   0.08 |  81.97
+ 264 |  68585000575 | MAG 64 *DNC*(ORIG)                 |    540 |   0.08 |  82.05
+ 265 |  00536322301 | CITRUS CALCIUM 200 VIT D 25        |    538 |   0.08 |  82.12
+ 266 |  24208040319 | OCUVITE LUTEIN CAP                 |    538 |   0.08 |   82.2
+ 267 |  00527134910 | LEVOTHYROXINE 150 MCG TAB          |    535 |   0.07 |  82.27
+ 268 |  16729003516 | ANASTROZOLE 1 MG TAB               |    532 |   0.07 |  82.35
+ 269 |  60505311003 | OLANZAPINE 2.5MG TAB               |    530 |   0.07 |  82.42
+ 270 |  55111033290 | PANTOPRAZOLE 20 MG*DNC*TAB         |    528 |   0.07 |   82.5
+ 271 |  00904765151 | MAPAP PM CAPLET                    |    526 |   0.07 |  82.57
+ 272 |  00245021111 | MIDODRINE 2.5 MG TAB               |    522 |   0.07 |  82.64
+ 273 |  66993005704 | HYDROXYCHLOROQUINE 200 MG          |    522 |   0.07 |  82.72
+ 274 |  65862066230 | ARIPIPRAZOLE 5 MG TAB              |    521 |   0.07 |  82.79
+ 275 |  60505009400 | DOXAZOSIN MES 2 MG TAB             |    518 |   0.07 |  82.86
+ 276 |  65862019405 | FLUOXETINE 40 MG CAP               |    516 |   0.07 |  82.94
+ 277 |  00469260290 | MYRBETRIQ ER 50 MG TAB*DNC*        |    513 |   0.07 |  83.01
+ 278 |  00185041060 | BUPropION  SR 100 MG TAB*DN        |    510 |   0.07 |  83.08
+ 279 |  00904548118 | GLUCOS/CHONDROI 500/400 CAP        |    508 |   0.07 |  83.15
+ 280 |  68382007901 | HALOPERIDOL 5 MG TAB               |    503 |   0.07 |  83.22
+ 281 |  65862007701 | CIPROFLOXACIN HCL 500MG            |    503 |   0.07 |  83.29
+ 282 |  00378086005 | CLOZAPINE 100 MG TAB               |    500 |   0.07 |  83.36
+ 283 |  00093220405 | METOCLOPRAMIDE 5 MG TABLET         |    496 |   0.07 |  83.43
+ 284 |  00143314250 | DOXYCYCLINE HYC100MG CAPS          |    488 |   0.07 |   83.5
+ 285 |  00456140590 | BYSTOLIC 5 MG TAB                  |    487 |   0.07 |  83.57
+ 286 |  13107015490 | PAROXETINE HCL 10 MG TAB           |    483 |   0.07 |  83.63
+ 287 |  47335083683 | GALANTAMINE 16MG ER*DNC* CA        |    483 |   0.07 |   83.7
+ 288 |  00378035101 | HALOPERIDOL 0.5 MG TAB             |    480 |   0.07 |  83.77
+ 289 |  50111044102 | TRAZODONE 150MG TAB                |    480 |   0.07 |  83.84
+ 290 |  00904319760 | FOLIC ACID 0.4 MG TABLET           |    480 |   0.07 |   83.9
+ 291 |  65862057390 | VALSARTAN 320 MG TAB               |    472 |   0.07 |  83.97
+ 292 |  57664039588 | VENLAFAXINE HCL 75 MG TAB          |    471 |   0.07 |  84.04
+ 293 |  37205083715 | OMEPRAZOLE OTC 20MG **UD**         |    470 |   0.07 |   84.1
+ 294 |  68001024108 | FAMOTIDINE 40 MG TAB               |    470 |   0.07 |  84.17
+ 295 |  13668004005 | RISPERIDONE 4 MG TAB               |    460 |   0.06 |  84.23
+ 296 |  65162076211 | WARFARIN SOD 2 MG TAB              |    458 |   0.06 |   84.3
+ 297 |  60505025103 | TIZANIDINE HCL 2 MG TAB            |    458 |   0.06 |  84.36
+ 298 |  40985027116 | BIOTIN 5000 MCG CAPS               |    452 |   0.06 |  84.42
+ 299 |  68001014103 | RAMIPRIL 10 MG CAPSULE             |    452 |   0.06 |  84.49
+ 300 |  65162005709 | RALOXIFENE 60MG*DNC*TAB            |    452 |   0.06 |  84.55
+ 301 |  00781502207 | METHYLPREDNISOLONE 4 MG UD         |    441 |   0.06 |  84.61
+ 302 |  49884012401 | LABETALOL 300 MG TAB               |    436 |   0.06 |  84.67
+ 303 |  31722053101 | TORSEMIDE 20 MG TAB                |    434 |   0.06 |  84.73
+ 304 |  57664074588 | REPAGLINIDE 1 MG TAB               |    432 |   0.06 |  84.79
+ 305 |  00904053160 | MULTIVITAMIN W/IRON TAB            |    431 |   0.06 |  84.85
+ 306 |  65162076411 | WARFARIN SOD 3 MG TAB              |    431 |   0.06 |  84.91
+ 307 |  68001021408 | LOVASTATIN 40 MG TAB               |    430 |   0.06 |  84.97
+ 308 |  13668015590 | ESOMEPRAZOLE DR 40MG CP *DN        |    429 |   0.06 |  85.03
+ 309 |  00071101368 | LYRICA 50 MG CAPSULE               |    428 |   0.06 |  85.09
+ 310 |  00904533260 | ZINC SULFATE 220 MG CAP            |    427 |   0.06 |  85.15
+ 311 |  62175026055 | NIFEDIPine ER 30MG*DNC* TAB        |    426 |   0.06 |  85.21
+ 312 |  49884000901 | ISOSORBIDE DN 30 MG TAB            |    426 |   0.06 |  85.27
+ 313 |  00469260190 | MYRBETRIQ ER 25 MG TAB*DNC*        |    421 |   0.06 |  85.33
+ 314 |  65597070118 | WELCHOL 625MG TABLET               |    420 |   0.06 |  85.39
+ 315 |  00591079510 | DICYCLOMINE 20 MG TAB              |    420 |   0.06 |  85.45
+ 316 |  49884083009 | DILTIAZEM CD 180 MG CAP *DN        |    416 |   0.06 |  85.51
+ 317 |  16729001901 | MYCOPHENOLATE 500MG*DNC*TAB        |    414 |   0.06 |  85.57
+ 318 |  60505252906 | ZIPRASIDONE 40 CAPS                |    412 |   0.06 |  85.62
+ 319 |  00054000725 | CALCITRIOL 0.25 MCG CAPSULE        |    412 |   0.06 |  85.68
+ 320 |  60505265601 | TRIAM-HCTZ 37.5-25 TAB             |    412 |   0.06 |  85.74
+ 321 |  00904027472 | VITAMIN E 400 UNIT SOFTGEL         |    410 |   0.06 |   85.8
+ 322 |  00054252731 | LITHIUM CARB 300 MG CAP            |    409 |   0.06 |  85.85
+ 323 |  00093725501 | GLIMEPIRIDE 2 MG TAB               |    408 |   0.06 |  85.91
+ 324 |  64679092403 | ENALAPRIL  5 MG TAB                |    407 |   0.06 |  85.97
+ 325 |  37205042278 | VITAMIN B COMPLX+VIT C TAB         |    403 |   0.06 |  86.02
+ 326 |  29300013605 | CLONIDINE 0.2 MG TAB               |    403 |   0.06 |  86.08
+ 327 |  00904264113 | CERTAVITE-ANTIOXIDANT TAB          |    403 |   0.06 |  86.14
+ 328 |  00456141090 | BYSTOLIC 10 MG TAB                 |    400 |   0.06 |  86.19
+ 329 |  00456341433 | NAMENDA XR14 MG*DNC*               |    400 |   0.06 |  86.25
+ 330 |  38485086335 | THERMOTABS TABLET                  |    398 |   0.06 |   86.3
+ 331 |  00904027760 | VITAMIN E 1000  GELCAP*CP*         |    398 |   0.06 |  86.36
+ 332 |  00904052260 | VITAMIN C 250 MG TAB               |    397 |   0.06 |  86.42
+ 333 |  49884072401 | HYDROXYUREA 500 MG CAP             |    396 |   0.06 |  86.47
+ 334 |  60505024908 | MIRTAZAPINE 45MG TAB               |    395 |   0.06 |  86.53
+ 335 |  00185067405 | HYDROXYZine PAM 25 MG CAP          |    393 |   0.06 |  86.58
+ 336 |  16252061630 | ROSUVASTATIN 10 MG TAB             |    393 |   0.06 |  86.64
+ 337 |  51991038490 | FOLBIC TABLET                      |    392 |   0.05 |  86.69
+ 338 |  00603221332 | AMITRIPTYLINE 25 MG TAB            |    392 |   0.05 |  86.75
+ 339 |  00378061601 | THIORIDAZINE 50 MG TAB             |    390 |   0.05 |   86.8
+ 340 |  10370010250 | BUPropIONXL 300 MG *DNC*           |    388 |   0.05 |  86.86
+ 341 |  59762151703 | CELECOXIB 200 MG CAP               |    384 |   0.05 |  86.91
+ 342 |  00591557101 | TRIMETHOPRIM 100 MG TABLET         |    384 |   0.05 |  86.96
+ 343 |  68462025501 | ROPINIROLE HCL 1MG  TAB            |    382 |   0.05 |  87.02
+ 344 |  00603307932 | CYCLOBENZAPRINE 10 MG TABLE        |    380 |   0.05 |  87.07
+ 345 |  40985021104 | VITAMIN B-12 1000MCG TR TAB        |    380 |   0.05 |  87.12
+ 346 |  51248015103 | VESICARE 10 MG TABLET              |    372 |   0.05 |  87.18
+ 347 |  50111046701 | PROPRANOLOL 10 MG TAB              |    371 |   0.05 |  87.23
+ 348 |  60505016601 | FLUVOXAMINE MALEATE 100 MG         |    370 |   0.05 |  87.28
+ 349 |  01093953144 | FLAXSEED OIL 1000 MG SFTG*         |    366 |   0.05 |  87.33
+ 350 |  64597030160 | NUEDEXTA 20-10 MG CAPSULE          |    364 |   0.05 |  87.38
+ 351 |  60505313901 | QUETIAPINE FUM 400 MG TAB          |    364 |   0.05 |  87.43
+ 352 |  00054007928 | BALSALAZIDE DISODIUM 750 MG        |    364 |   0.05 |  87.48
+ 353 |  60505254306 | GALANTAMINE HBR 8 MG TAB           |    362 |   0.05 |  87.53
+ 354 |  00093574065 | CYCLOSPORINE 25MG UD CAP           |    360 |   0.05 |  87.58
+ 355 |  00603307821 | CYCLOBENZAPRINE 5 MG TABLET        |    358 |   0.05 |  87.63
+ 356 |  00378052501 | DILTIAZEM HCL 120 MG TAB           |    352 |   0.05 |  87.68
+ 357 |  00378022201 | CHLORTHALIDONE 25 MG TAB           |    352 |   0.05 |  87.73
+ 358 |  00067627550 | GAS X 125MG  SOFTGEL(EXTRA         |    351 |   0.05 |  87.78
+ 359 |  00071041813 | NITROSTAT 0.4 MG*DNC* TAB          |    350 |   0.05 |  87.83
+ 360 |  29300012601 | BISOPROLOL 5 MG TAB                |    350 |   0.05 |  87.88
+ 361 |  45802042578 | FEXOFENADINE 60 MG TABLET          |    348 |   0.05 |  87.93
+ 362 |  60505314008 | OLANZAPINE 20 MG TABLET            |    348 |   0.05 |  87.98
+ 363 |  00781520692 | LOSARTAN HCTZ 50/12.5MG TAB        |    347 |   0.05 |  88.03
+ 364 |  68001014203 | RAMIPRIL 2.5 MG CAP                |    346 |   0.05 |  88.07
+ 365 |  00527132501 | DIGOXIN 250 MCG TABLET             |    345 |   0.05 |  88.12
+ 366 |  00115351101 | PYRIDOSTIGMINE 60 MG *DNC*         |    345 |   0.05 |  88.17
+ 367 |  60505009500 | DOXAZOSIN MES 4MG TAB              |    344 |   0.05 |  88.22
+ 368 |  00054010829 | RAMIPRIL 5 MG CAP                  |    342 |   0.05 |  88.27
+ 369 |  68462026005 | VERAPAMIL ER 240MG*DNC* TAB        |    342 |   0.05 |  88.32
+ 370 |  31722053305 | METHOCARBAMOL 500 MG TAB           |    342 |   0.05 |  88.36
+ 371 |  49884083109 | DILTIAZEM 24hr CD240MG CP *        |    341 |   0.05 |  88.41
+ 372 |  64764024060 | AMITIZA 24MCG *DNC* SOFTGEL        |    340 |   0.05 |  88.46
+ 373 |  00832201250 | AMANTADINE 100 MG CAP              |    339 |   0.05 |  88.51
+ 374 |  69387011905 | BENZONATATE 100 MG *DNC*CAP        |    339 |   0.05 |  88.55
+ 375 |  65862039010 | ONDANSETRON ODT 4 MG TAB           |    333 |   0.05 |   88.6
+ 376 |  00574060801 | FERROUS SULF 324 MG TAB EC         |    330 |   0.05 |  88.65
+ 377 |  51991060401 | VITAMIN D2 50000U*DNC *SOF         |    329 |   0.05 |  88.69
+ 378 |  00591090030 | GLIPIZide ER 2.5 MG *DNC*TA        |    328 |   0.05 |  88.74
+ 379 |  00071101468 | LYRICA 75 MG CAPSULE               |    328 |   0.05 |  88.78
+ 380 |  00904555159 | DIPHENHYdramine 25 MG TAB          |    327 |   0.05 |  88.83
+ 381 |  00378025701 | HALOPERIDOL 1 MG TABLET            |    326 |   0.05 |  88.88
+ 382 |  65162076511 | WARFARIN SOD 4 MG TAB              |    322 |   0.05 |  88.92
+ 383 |  57664039388 | VENLAFAXINE HCL 37.5 MG TAB        |    316 |   0.04 |  88.96
+ 384 |  40985022481 | GLUCOSAMINE/CHOND 750/600MG        |    316 |   0.04 |  89.01
+ 385 |  47781030701 | NITROFURANTOIN MCR 50MG*DNC        |    315 |   0.04 |  89.05
+ 386 |  53746046605 | IBUPROFEN 800 MG *DNC*TAB          |    314 |   0.04 |   89.1
+ 387 |  68462035205 | HYDROXYZine HCL 10 MG TAB          |    314 |   0.04 |  89.14
+ 388 |  11845007552 | CALCIUM 500 VIT D 400              |    314 |   0.04 |  89.19
+ 389 |  00185061501 | HYDROXYZine PAM 50 MG CAP          |    312 |   0.04 |  89.23
+ 390 |  16252061730 | ROSUVASTATIN 20 MG TAB             |    310 |   0.04 |  89.27
+ 391 |  65862023060 | LAMOTRIGINE 200 MG TABLET          |    310 |   0.04 |  89.32
+ 392 |  74098527112 | VITAMIN B-12 2500 MCG SUBL         |    310 |   0.04 |  89.36
+ 393 |  00310075190 | CRESTOR 10MG TAB                   |    310 |   0.04 |   89.4
+ 394 |  49884098501 | NATEGLINIDE 120 MG TABLET          |    309 |   0.04 |  89.45
+ 395 |  60505015701 | BUPropION HCL 100 MG TAB           |    309 |   0.04 |  89.49
+ 396 |  68462027501 | DESMOPRESSIN ACETATE 0.1 MG        |    308 |   0.04 |  89.53
+ 397 |  62756014202 | METFORMIN  ER 500 MG TABLET        |    308 |   0.04 |  89.58
+ 398 |  00054022321 | QUETIAPINE FUM 300MG TAB           |    306 |   0.04 |  89.62
+ 399 |  13668010960 | DULOXETINE DR 20MG*DNC CAP         |    303 |   0.04 |  89.66
+ 400 |  00536348108 | FERROUS SULF ER140MG (UD) T        |    300 |   0.04 |   89.7
+ 401 |  64980012950 | FLORANEX BOTTLE (ORIG)             |    300 |   0.04 |  89.74
+ 402 |  00093022001 | BICALUTAMIDE 50 MG TAB             |    298 |   0.04 |  89.79
+ 403 |  59746011506 | PROCHLORPERAZINE 10 MG TAB         |    296 |   0.04 |  89.83
+ 404 |  51991077290 | LANSOPRAZOLE DR30MG *DNC*CA        |    294 |   0.04 |  89.87
+ 405 |  07431213329 | FISH OIL 1200 MG                   |    294 |   0.04 |  89.91
+ 406 |  00054004429 | CILOSTAZOL 100 MG TAB              |    292 |   0.04 |  89.95
+ 407 |  00527132601 | URSODIOL 300MG CAPSULE             |    290 |   0.04 |  89.99
+ 408 |  00430078327 | ASACOL HD DR 800MG *DNC* TA        |    290 |   0.04 |  90.03
+ 409 |  54629000020 | CRANBERRY 500 MG SOFTGEL           |    290 |   0.04 |  90.07
+ 410 |  65162075310 | BENAZEPRIL HCL 20 MG TAB           |    288 |   0.04 |  90.11
+ 411 |  59746038606 | TERAZOSIN 10 MG CAP                |    288 |   0.04 |  90.15
+ 412 |  59746038506 | TERAZOSIN 5 MG CAP                 |    288 |   0.04 |  90.19
+ 413 |  23155000401 | HYDRALAZine 100 MG TAB             |    288 |   0.04 |  90.23
+ 414 |  51991079406 | RIVASTIGMINE 3 MG CAPSULE          |    288 |   0.04 |  90.27
+ 415 |  74312002832 | MELATONIN 1 MG TAB                 |    288 |   0.04 |  90.31
+ 416 |  59762151603 | CELECOXIB 100 MG CAP               |    286 |   0.04 |  90.35
+ 417 |  00378009401 | CARB-LEVO ER 50-200*DNC*TAB        |    286 |   0.04 |  90.39
+ 418 |  65862066530 | ARIPIPRAZOLE 20 MG TAB             |    284 |   0.04 |  90.43
+ 419 |  24208063211 | PRESERVISION/LUTEIN SOFT*CP        |    283 |   0.04 |  90.47
+ 420 |  64679092603 | ENALAPRIL 20 MG TAB                |    282 |   0.04 |  90.51
+ 421 |  00093031905 | DILTIAZEM 60 MG TABLET *DNC        |    282 |   0.04 |  90.55
+ 422 |  00527163801 | LEVOTHYROXINE 137 MCG TAB          |    281 |   0.04 |  90.59
+ 423 |  43292055606 | CALCIUM CITRATE 250 MG CAPL        |    280 |   0.04 |  90.63
+ 424 |  00378013501 | DILTIAZEM 90 MG TABLET             |    280 |   0.04 |  90.67
+ 425 |  64896066201 | RYTARY ER 36.25 MG-145 MG*D        |    280 |   0.04 |  90.71
+ 426 |  60505311308 | OLANZAPINE 10 MG TABLET            |    278 |   0.04 |  90.75
+ 427 |  00904319251 | VITAMIN B COMPLEX 100 TAB          |    278 |   0.04 |  90.79
+ 428 |  63044062201 | RENO CAPS                          |    275 |   0.04 |  90.83
+ 429 |  23155017801 | ISOSORBIDE MN ER 60MG *DNC         |    274 |   0.04 |  90.86
+ 430 |  13811060690 | TL-HEM 150 CAPLET                  |    274 |   0.04 |   90.9
+ 431 |  65597010390 | BENICAR 20 MG TABLET               |    272 |   0.04 |  90.94
+ 432 |  00378306605 | FENOFIBRATE 145 MG TAB             |    272 |   0.04 |  90.98
+ 433 |  00131247835 | VIMPAT 100 MG TABLET               |    270 |   0.04 |  91.02
+ 434 |  69097022416 | ALENDRONATE SOD 70MG TAB *D        |    268 |   0.04 |  91.05
+ 435 |  68462010960 | TOPIRAMATE 100 MG*DNC*TAB          |    268 |   0.04 |  91.09
+ 436 |  07431207961 | BIOTIN 1000 MCG TABLET             |    268 |   0.04 |  91.13
+ 437 |  68180036209 | FENOFIBRATE 54 MG TAB              |    266 |   0.04 |  91.17
+ 438 |  13107015690 | PAROXETINE HCL 30 MG TABLET        |    266 |   0.04 |   91.2
+ 439 |  00527134001 | BETHANECHOL 10 MG TAB              |    264 |   0.04 |  91.24
+ 440 |  54505033210 | HYDROCORTISONE 10 MG TABLET        |    264 |   0.04 |  91.28
+ 441 |  49884023211 | DONEPEZIL HCL 23 MG TAB *DN        |    263 |   0.04 |  91.31
+ 442 |  23155006505 | METRONIDAZOLE 500 MG TABLET        |    262 |   0.04 |  91.35
+ 443 |  00591349830 | GALANTAMINE 24MG ER*DNC* CA        |    262 |   0.04 |  91.39
+ 444 |  65862066330 | ARIPIPRAZOLE 10 MG TAB             |    259 |   0.04 |  91.42
+ 445 |  55111032890 | NATEGLINIDE 60 MG TABLET           |    258 |   0.04 |  91.46
+ 446 |  68382008001 | HALOPERIDOL 10 MG TABLET           |    258 |   0.04 |   91.5
+ 447 |  00904113213 | VITAMIN B-12 100 MCG TABLET        |    258 |   0.04 |  91.53
+ 448 |  00574050801 | FERROUS GLUCONATE 324 MG TA        |    256 |   0.04 |  91.57
+ 449 |  68462025401 | ROPINIROLE HCL 0.5 MG TAB          |    256 |   0.04 |   91.6
+ 450 |  60505016501 | FLUVOXAMINE MALEATE 50 MG T        |    254 |   0.04 |  91.64
+ 451 |  68180036309 | FENOFIBRATE 160 MG TAB             |    254 |   0.04 |  91.68
+ 452 |  68462034690 | LEVOCETIRIZINE 5 MG TAB            |    253 |   0.04 |  91.71
+ 453 |  66685100100 | AMOX-CLAV 875-125 MG TA            |    253 |   0.04 |  91.75
+ 454 |  42865030602 | ZENPEP DR 10000 UNITS CAP          |    252 |   0.04 |  91.78
+ 455 |  31184514818 | VITAMIN B12 5000 MCG  SUBLI        |    252 |   0.04 |  91.82
+ 456 |  49884064001 | METHIMAZOLE 5 MG TABLET            |    251 |   0.04 |  91.85
+ 457 |  00378306577 | FENOFIBRATE 48 MG TAB              |    249 |   0.03 |  91.89
+ 458 |  13107015790 | PAROXETINE HCL 40 MG TAB           |    246 |   0.03 |  91.92
+ 459 |  64980018210 | SODIUM BICARB 650MG *DNC* T        |    246 |   0.03 |  91.96
+ 460 |  66582031254 | VYTORIN 10-20 MG TABLET            |    242 |   0.03 |  91.99
+ 461 |  00054001829 | PREDNISONE 20 MG TAB               |    241 |   0.03 |  92.02
+ 462 |  23155011101 | PROPRANOLOL 20 MG TAB              |    240 |   0.03 |  92.06
+ 463 |  00781150701 | ATENOLOL 100 MG TAB                |    240 |   0.03 |  92.09
+ 464 |  68682020025 | CARBIDOPA 25 MG TAB                |    240 |   0.03 |  92.12
+ 465 |  68462025801 | ROPINIROLE HCL 4MG TAB             |    240 |   0.03 |  92.16
+ 466 |  65862031560 | LEVETIRACETAM 1000MG TAB           |    238 |   0.03 |  92.19
+ 467 |  00904529352 | GLUCOSAMINE SULF 500 MG CAP        |    236 |   0.03 |  92.22
+ 468 |  00131247935 | VIMPAT 150 MG TAB                  |    236 |   0.03 |  92.26
+ 469 |  64980016201 | BETHANECHOL 25 MG TAB              |    236 |   0.03 |  92.29
+ 470 |  68001023900 | CLONIDINE 0.3 MG TAB               |    234 |   0.03 |  92.32
+ 471 |  40985022713 | MAGNESIUM OXIDE 250 MG TAB         |    234 |   0.03 |  92.36
+ 472 |  24385036881 | NAPROXEN 220 MG TAB                |    233 |   0.03 |  92.39
+ 473 |  23155010310 | METFORMIN HCL 850 MG TAB           |    232 |   0.03 |  92.42
+ 474 |  00904188280 | OYSTER SHELL 250MG+VIT D TA        |    232 |   0.03 |  92.45
+ 475 |  31722030201 | ALFUZOSIN HCL ER 10MG*DNC*T        |    232 |   0.03 |  92.49
+ 476 |  53746051401 | SPIRONOLACTONE  50MG TAB           |    232 |   0.03 |  92.52
+ 477 |  53746025401 | RANITIDNE 300 MG TAB               |    232 |   0.03 |  92.55
+ 478 |  30768000676 | FOLIC ACID 800 MCG TAB             |    229 |   0.03 |  92.58
+ 479 |  76644356317 | OSTEO BI-FLEX TAB                  |    228 |   0.03 |  92.61
+ 480 |  51645079201 | NIACIN 500 MG TAB                  |    228 |   0.03 |  92.65
+ 481 |  40985027435 | COENZYME Q10 200MG CAP             |    228 |   0.03 |  92.68
+ 482 |  53489017601 | ALBUTEROL SULF 2MG TAB             |    228 |   0.03 |  92.71
+ 483 |  00054474225 | PREDNISONE 2.5 MG TAB              |    227 |   0.03 |  92.74
+ 484 |  00904560413 | FISH OIL 500 MG OMEGA3 SOFT        |    226 |   0.03 |  92.77
+ 485 |  60505132309 | PRAVASTATIN SOD 80 MG TAB          |    226 |   0.03 |  92.81
+ 486 |  00093204905 | TOLTERODINE ER 4MG*DNC* CAP        |    226 |   0.03 |  92.84
+ 487 |  68001027900 | DICLOFENAC SOD EC 25 MG TAB        |    226 |   0.03 |  92.87
+ 488 |  23155050201 | HYDROXYZine HCL 50 MG TAB          |    224 |   0.03 |   92.9
+ 489 |  51645073706 | CRANBERRY 425 MG CAP               |    224 |   0.03 |  92.93
+ 490 |  54092019112 | PENTASA 500 MG CAPS *DNC*          |    224 |   0.03 |  92.96
+ 491 |  67618010928 | COLACE 50 MG CAPSULE               |    224 |   0.03 |  92.99
+ 492 |  00310028060 | SEROQUEL XR 50 MG *DNC* TAB        |    215 |   0.03 |  93.02
+ 493 |  60505311408 | OLANZAPINE 15 MG TAB               |    214 |   0.03 |  93.05
+ 494 |  13668009290 | PRAMIPEXOLE 0.25 MG TAB            |    210 |   0.03 |  93.08
+ 495 |  00456120130 | LINZESS 145 MCG TAB (orig)         |    210 |   0.03 |  93.11
+ 496 |  00000000000 | UBIQUINOL CO Q 10 200MG (OR        |    210 |   0.03 |  93.14
+ 497 |  00378061401 | THIORIDAZINE 25 MG TAB             |    210 |   0.03 |  93.17
+ 498 |  00597014960 | PRADAXA 75 MG UD CAP               |    210 |   0.03 |   93.2
+ 499 |  00378534001 | DILTIAZEM ER 240MG CAP SA *        |    207 |   0.03 |  93.23
+ 500 |  49348081705 | FAMOTIDINE 20MG OTC TAB            |    206 |   0.03 |  93.26
+ 501 |  69918020101 | DESMOPRESSIN ACETATE 0.2MG         |    205 |   0.03 |  93.29
+ 502 |  87701040767 | CALCIUM 500+VITD3 600TAB           |    204 |   0.03 |  93.32
+ 503 |  00054075650 | CENTRUM SILVER WOMAN               |    204 |   0.03 |  93.35
+ 504 |  65862007601 | CIPROFLOXACIN HCL 250MG            |    203 |   0.03 |  93.37
+ 505 |  65162075410 | BENAZEPRIL HCL 40 MG TAB           |    203 |   0.03 |   93.4
+ 506 |  00054009925 | OXCARBAZEPINE 600 MG TABLET        |    202 |   0.03 |  93.43
+ 507 |  00054418325 | DEXAMETHASONE 2 MG TABLET          |    202 |   0.03 |  93.46
+ 508 |  59762045001 | COLESTIPOL HCL 1 GM TAB *DN        |    202 |   0.03 |  93.49
+ 509 |  23155005810 | GLYBURide 5 MG TABLET              |    202 |   0.03 |  93.52
+ 510 |  57896010101 | ACETAMINOPHEN 325 MG(ORIG)         |    200 |   0.03 |  93.54
+ 511 |  49348030610 | NAPROXE 220MG(ORIG)                |    200 |   0.03 |  93.57
+ 512 |  00024414260 | MULTAQ 400MG TABLET                |    200 |   0.03 |   93.6
+ 513 |  00591365801 | NITROFURANTOI MON/MCR100MG*        |    198 |   0.03 |  93.63
+ 514 |  00185012801 | BUMETANIDE 0.5 MG TAB              |    198 |   0.03 |  93.65
+ 515 |  49884050101 | BUDESONIDE EC 3 MG CAP *DNC        |    198 |   0.03 |  93.68
+ 516 |  00904051860 | VITAMIN B-6 100 MG TABLET          |    198 |   0.03 |  93.71
+ 517 |  00904561646 | COENZYME Q10 50MG SOFTG            |    198 |   0.03 |  93.74
+ 518 |  00536105022 | CALCIUM ANTACID CHEW 750MG         |    196 |   0.03 |  93.77
+ 519 |  58468013001 | RENVELA 800 MG*DNC*TAB             |    196 |   0.03 |  93.79
+ 520 |  65162076111 | WARFARIN SOD 1 MG TAB              |    193 |   0.03 |  93.82
+ 521 |  00378617201 | METOLAZONE 2.5 MG TAB              |    192 |   0.03 |  93.85
+ 522 |  59762080002 | TOLTERODINE 2 MG TAB               |    190 |   0.03 |  93.87
+ 523 |  45963053930 | ONDANSETRON HCL 8 MG TAB           |    190 |   0.03 |   93.9
+ 524 |  65162076710 | WARFARIN SOD 6 MG TABLET           |    187 |   0.03 |  93.93
+ 525 |  00781207401 | TRIAM-HCTZ 37.5-25 CAP             |    186 |   0.03 |  93.95
+ 526 |  51660014030 | VALSARTAN 40 MG TAB                |    186 |   0.03 |  93.98
+ 527 |  00228291809 | DILTIAZEM24HR ER 360MG*DNC*        |    185 |   0.03 |     94
+ 528 |  00832011100 | AMANTADINE 100 MG TAB              |    182 |   0.03 |  94.03
+ 529 |  63304069301 | CLINDAMYCIN HCL 300 MG CAPS        |    181 |   0.03 |  94.05
+ 530 |  57141000497 | VIACTIV+ D CHOCO CHEW+12(OR        |    180 |   0.03 |  94.08
+ 531 |  69076047601 | GLYCOPYRROLATE 2 MG TAB            |    180 |   0.03 |  94.11
+ 532 |  65862059760 | LAMIVUDINE-ZIDOVUDINE(ORIG)        |    180 |   0.03 |  94.13
+ 533 |  59762106102 | DIPHENOXYLATE-ATROPINE 2.5-        |    180 |   0.03 |  94.16
+ 534 |  00005556819 | CALTRATE 600+D 800 CHEWYCHO        |    180 |   0.03 |  94.18
+ 535 |  30761012012 | ALPHA LIPOIC ACID 100MG            |    180 |   0.03 |  94.21
+ 536 |  13668009390 | PRAMIPEXOLE  0.5MG TABS            |    178 |   0.02 |  94.23
+ 537 |  60505009600 | DOXAZOSIN MES 8 MG TAB             |    177 |   0.02 |  94.26
+ 538 |  61958100301 | RANEXA ER 500 MG  *DNC*TAB         |    177 |   0.02 |  94.28
+ 539 |  30768029545 | KRILL OIL 1000 MG SOFTGEL          |    176 |   0.02 |  94.31
+ 540 |  51672412501 | CARBAMAZEPINE XR 400MG*DNC*        |    175 |   0.02 |  94.33
+ 541 |  00591034301 | VERAPAMIL 80 MG TABLET             |    174 |   0.02 |  94.35
+ 542 |  00006022154 | JANUVIA 25 MG TAB                  |    172 |   0.02 |  94.38
+ 543 |  00904404360 | FISH OIL 340- 1000MG CAP*CP        |    172 |   0.02 |   94.4
+ 544 |  62175026237 | NIFEDIPine ER 90MG*DNC*PROC        |    172 |   0.02 |  94.43
+ 545 |  16729000717 | SIMVASTATIN 80 MG TAB              |    171 |   0.02 |  94.45
+ 546 |  00378528001 | DILTIAZEM ER 180MG CAP SA *        |    171 |   0.02 |  94.47
+ 547 |  27241001709 | MONTELUKAST 5MG CHEW TAB           |    171 |   0.02 |   94.5
+ 548 |  11845011831 | VITAMIN D 400 UI SOFTGEL           |    170 |   0.02 |  94.52
+ 549 |  00456045701 | ARMOUR THYROID 15 MG TABLET        |    170 |   0.02 |  94.55
+ 550 |  00005452835 | CENTRUM CHEWABLE TABLET            |    170 |   0.02 |  94.57
+ 551 |  00591363630 | TROSPIUM ER 60MG*DNC*              |    170 |   0.02 |  94.59
+ 552 |  04746905964 | MELATONIN 10 MG TAB CR             |    170 |   0.02 |  94.62
+ 553 |  65597010490 | BENICAR 40 MG TAB                  |    170 |   0.02 |  94.64
+ 554 |  51672405506 | AMIODARONE HCL 100 MG TAB          |    169 |   0.02 |  94.66
+ 555 |  00032122401 | CREON DR 24000 UNIT*DNC*CA         |    168 |   0.02 |  94.69
+ 556 |  00591231919 | VALSARTAN 320MG/HCTZ 25MG          |    168 |   0.02 |  94.71
+ 557 |  00054008826 | CALCIUM ACETATE 667 MG CAP         |    168 |   0.02 |  94.74
+ 558 |  00228285011 | GUANFACINE HCL ER 1 MG TAB         |    168 |   0.02 |  94.76
+ 559 |  68180051801 | LISINOPRIL-HCTZ 10-12.5 MG         |    168 |   0.02 |  94.78
+ 560 |  00143117201 | CAPTOPRIL 25 MG TAB                |    168 |   0.02 |  94.81
+ 561 |  00054002025 | LITHIUM ER 450MG  *DNC*TABL        |    168 |   0.02 |  94.83
+ 562 |  31722053001 | TORSEMIDE 10 MG TABLET             |    164 |   0.02 |  94.85
+ 563 |  00781527764 | DONEPEZIL  ODT 10MG  TAB *D        |    162 |   0.02 |  94.87
+ 564 |  53746027101 | SULFAMETHOXAZOLE-TMP SS TAB        |    161 |   0.02 |   94.9
+ 565 |  68382006516 | SIMVASTATIN 5 MG TAB               |    161 |   0.02 |  94.92
+ 566 |  63824005634 | MUCINEX DM ER600-30MG*DNC*O        |    160 |   0.02 |  94.94
+ 567 |  00186077760 | BRILINTA 90 MG TAB                 |    160 |   0.02 |  94.96
+ 568 |  52544015230 | RAPAFLO 8MG CAPSULE                |    159 |   0.02 |  94.99
+ 569 |  65862066130 | ARIPIPRAZOLE 2 MG TAB              |    158 |   0.02 |  95.01
+ 570 |  23155005701 | GLYBURide 2.5 MG TAB               |    158 |   0.02 |  95.03
+ 571 |  00591247330 | TAMOXIFEN 20 MG TAB                |    158 |   0.02 |  95.05
+ 572 |  00456112030 | VIIBRYD 20 MG TAB                  |    156 |   0.02 |  95.08
+ 573 |  66993016502 | COLCHICINE 0.6 MG TAB              |    153 |   0.02 |   95.1
+ 574 |  13668009490 | PRAMIPEX 1MG TABLET                |    150 |   0.02 |  95.12
+ 575 |  00904590887 | DAIRY AID (LACTASE CAPLET)         |    150 |   0.02 |  95.14
+ 576 |  00591533710 | TRIHEXYPHENDYL 5 MG TAB            |    150 |   0.02 |  95.16
+ 577 |  37205098078 | PAIN RELIEVER 500 MG GELCAP        |    150 |   0.02 |  95.18
+ 578 |  87651042067 | AZO CRANBERRY TAB (ORIG)           |    150 |   0.02 |   95.2
+ 579 |  49100036374 | CULTURELLE CAPS (ORIG 30'S)        |    150 |   0.02 |  95.22
+ 580 |  47335083583 | GALANTAMINE 8MG ER CAP*DNC*        |    148 |   0.02 |  95.24
+ 581 |  74098527073 | LUTEIN 20 MG SOFTGEL               |    147 |   0.02 |  95.26
+ 582 |  11845096101 | MAGNESIUM 200 MG TABLET            |    146 |   0.02 |  95.28
+ 583 |  23155002701 | VERAPAMIL 120 MG TAB               |    146 |   0.02 |   95.3
+ 584 |  07431203595 | VITAMIN B-12 500 MCG SUBL          |    146 |   0.02 |  95.33
+ 585 |  53746019005 | NAPROXEN 500 MG TABLET             |    146 |   0.02 |  95.35
+ 586 |  68462011060 | TOPIRAMATE 200 MG*DNC*TAB          |    146 |   0.02 |  95.37
+ 587 |  00781520792 | LOSARTAN HCTZ 100/25MG TAB         |    146 |   0.02 |  95.39
+ 588 |  00378522001 | DILTIAZEM ER 120 MG CAP *DN        |    145 |   0.02 |  95.41
+ 589 |  60505254206 | GALANTAMINE HBR 4 MG TABLET        |    144 |   0.02 |  95.43
+ 590 |  07610019520 | CALCIUM CITRATE 400 MG             |    144 |   0.02 |  95.45
+ 591 |  51991081190 | METAFOLBIC PLUS                    |    142 |   0.02 |  95.47
+ 592 |  00005475850 | CENTRUM SILVER ULTRA MEN TA        |    142 |   0.02 |  95.49
+ 593 |  32420846530 | OCUVITE SOFTGEL ADULT 50+          |    142 |   0.02 |  95.51
+ 594 |  00904506260 | CALCITRATE  200(950)MG  TAB        |    142 |   0.02 |  95.53
+ 595 |  00093304401 | VERAPAMIL ER 180 MG TAB            |    142 |   0.02 |  95.55
+ 596 |  57664039688 | VENLAFAXINE HCL 100 MG TAB         |    142 |   0.02 |  95.57
+ 597 |  00527135101 | LEVOTHYROXINE 200 MCG TAB          |    142 |   0.02 |  95.59
+ 598 |  43547027809 | IRBESARTAN 150 MG TAB              |    142 |   0.02 |  95.61
+ 599 |  60505253106 | ZIPRASIDONE 80 MG CAP              |    142 |   0.02 |  95.63
+ 600 |  00603374128 | FUROSEMIDE 80MG TAB                |    140 |   0.02 |  95.65
+ 601 |  01650056015 | CITRACAL-VITD GUMMIE (ORIG)        |    140 |   0.02 |  95.67
+ 602 |  00378110101 | PRAZOSIN 1MG CAPSULE               |    140 |   0.02 |  95.68
+ 603 |  54092047612 | LIALDA 1.2 GM TABLET SA            |    140 |   0.02 |   95.7
+ 604 |  69387010701 | VALPROIC ACID 250 MG*DNC* C        |    140 |   0.02 |  95.72
+ 605 |  65862058301 | AMLODIPINE-BENAZ 5/10 CAP          |    140 |   0.02 |  95.74
+ 606 | #49884067801 | NIFEDIPINE ER 60MG*DNC* TAB        |    140 |   0.02 |  95.76
+ 607 |  00904552752 | CRANBERRY FRUIT 405 MG CAP         |    139 |   0.02 |  95.78
+ 608 |  65862050220 | AMOX TR-K CLV 500-125 MG TA        |    137 |   0.02 |   95.8
+ 609 |  00054452725 | LITHIUM CARB 300 MG TAB            |    134 |   0.02 |  95.82
+ 610 |  00781261305 | AMOXICILLIN 500 MG CAPSULE         |    134 |   0.02 |  95.84
+ 611 |  13668015490 | ESOMEPRAZOLE DR 20MG *DNC*         |    133 |   0.02 |  95.86
+ 612 |  65649030302 | XIFAXAN 550 MG TABLET              |    132 |   0.02 |  95.88
+ 613 |  42192033101 | NP THYROID 90 MG TABLET            |    128 |   0.02 |  95.89
+ 614 |  16252061830 | ROSUVASTATIN 40 MG TAB             |    126 |   0.02 |  95.91
+ 615 |  65862053750 | LEVOFLOXACIN 500 MG TAB            |    122 |   0.02 |  95.93
+ 616 |  60505253006 | ZIPRASIDONE 60 MG CAP              |    121 |   0.02 |  95.95
+ 617 |  74026187756 | AREDIUM TAB                        |    120 |   0.02 |  95.96
+ 618 |  59676057101 | INTELENCE 200MG*DNC*(ORIG)         |    120 |   0.02 |  95.98
+ 619 |  43547033003 | IRBESARTAN-HCTZ 150-12.5 MG        |    120 |   0.02 |     96
+ 620 |  65649010302 | APRISO ER 0.375GM *DNC* CAP        |    120 |   0.02 |  96.01
+ 621 |  44946101003 | FLUORIDE 1MG  CHEW TAB(orig        |    120 |   0.02 |  96.03
+ 622 |  00536104610 | SODIUM BICARB 325MG  *DNC*         |    120 |   0.02 |  96.05
+ 623 |  65862021105 | MINOCYCLINE 100 MG*DNC* CAP        |    120 |   0.02 |  96.06
+ 624 |  00591533501 | TRIHEXYPHENIDYL 2 MG TAB           |    120 |   0.02 |  96.08
+ 625 |  00006022761 | ISENTRESS 400 MG TAB (ORIG)        |    120 |   0.02 |   96.1
+ 626 |  00378119001 | GUANFACINE 2 MG TABLET             |    120 |   0.02 |  96.11
+ 627 |  65862066630 | ARIPIPRAZOLE 30 MG TAB             |    120 |   0.02 |  96.13
+ 628 |  64679092303 | ENALAPRIL 2.5 MG TAB               |    119 |   0.02 |  96.15
+ 629 |  57664011688 | VERAPAMIL ER 120 MG*DNC* TA        |    118 |   0.02 |  96.16
+ 630 |  00054455015 | METHOTREXATE 2.5 MG TAB            |    118 |   0.02 |  96.18
+ 631 |  33342007510 | VALSARTAN-HCTZ 160-12.5 MG         |    118 |   0.02 |   96.2
+ 632 |  00378116001 | GUANFACINE 1 MG TAB                |    117 |   0.02 |  96.21
+ 633 |  01650054099 | CITRACAL + D SLOW RELEASE T        |    116 |   0.02 |  96.23
+ 634 |  31284353430 | PHILLIPS COLON HEALTH CAPS         |    116 |   0.02 |  96.25
+ 635 |  00832030400 | CHLORPROMAZINE 200 MG TAB          |    116 |   0.02 |  96.26
+ 636 |  31722027090 | QUINAPRIL 40 MG TAB                |    116 |   0.02 |  96.28
+ 637 |  65162054510 | PRIMIDONE 250 MG TABLET            |    116 |   0.02 |  96.29
+ 638 |  03076800967 | CALCIUM 1200/ D1000IU SFGL*        |    116 |   0.02 |  96.31
+ 639 |  68682070530 | DILTIAZEM ER 180 MG TAB *DN        |    116 |   0.02 |  96.33
+ 640 |  51991079306 | RIVASTIGMINE 1.5 MG CAP            |    116 |   0.02 |  96.34
+ 641 |  62175012937 | ISOSORBIDE MN ER120MG *DNC         |    116 |   0.02 |  96.36
+ 642 |  65862058401 | AMLODIPINE/BENAZ 5/20 CAP          |    116 |   0.02 |  96.38
+ 643 |  16729007801 | CARB-LEVO ER 25-100*DNC*TAB        |    116 |   0.02 |  96.39
+ 644 |  00245010811 | FERR SULF EC 325 MG TAB(DNC        |    116 |   0.02 |  96.41
+ 645 |  00310075290 | CRESTOR 20MG TABLET                |    114 |   0.02 |  96.42
+ 646 |  68180051902 | LISINOPRIL-HCTZ 20-12.5 TAB        |    114 |   0.02 |  96.44
+ 647 |  50458058030 | XARELTO 10 MG TAB                  |    114 |   0.02 |  96.46
+ 648 |  65162075210 | BENAZEPRIL HCL 10 MG TABLET        |    114 |   0.02 |  96.47
+ 649 |  76439036490 | VIRT-VITE TABLET                   |    114 |   0.02 |  96.49
+ 650 |  68546022956 | AZILECT 1 MG TABLET                |    114 |   0.02 |   96.5
+ 651 |  00186504031 | NEXIUM 40 MG CAP *DNC*             |    114 |   0.02 |  96.52
+ 652 |  00093220305 | METOCLOPRAMIDE 10 MG TAB           |    112 |   0.02 |  96.54
+ 653 |  54629403960 | CALCIUM CITRATE+D 250-100          |    112 |   0.02 |  96.55
+ 654 |  60505009300 | DOXAZOSIN MES 1 MG TAB             |    112 |   0.02 |  96.57
+ 655 |  68180052002 | LISINOPRIL-HCTZ 20-25 MG TA        |    112 |   0.02 |  96.58
+ 656 |  53489038601 | MINOXIDIL 2.5 MG TABLET            |    112 |   0.02 |   96.6
+ 657 |  49884005601 | IMIPRAMINE HCL 50 MG TAB           |    112 |   0.02 |  96.61
+ 658 |  63402030430 | LATUDA 40 MG TAB                   |    112 |   0.02 |  96.63
+ 659 |  13668027105 | CARBAMAZEpine CHEW 100MG           |    112 |   0.02 |  96.65
+ 660 |  75834002001 | VITAMIN D3 50000 UNITS CAP         |    112 |   0.02 |  96.66
+ 661 |  00832048030 | EPLERENONE 25 MG TABLET            |    112 |   0.02 |  96.68
+ 662 |  57664065588 | PINDOLOL 5 MG TABLET               |    112 |   0.02 |  96.69
+ 663 |  00591058201 | PROPAFENONE HCL 150 MG TAB         |    112 |   0.02 |  96.71
+ 664 |  68180011807 | LEVETIRACETAM ER 750 MG TAB        |    112 |   0.02 |  96.72
+ 665 |  00378061201 | THIORIDAZINE 10 MG TABLET          |    112 |   0.02 |  96.74
+ 666 |  57664074788 | REPAGLINIDE 2 MG TAB               |    112 |   0.02 |  96.76
+ 667 |  00185014501 | NABUMETONE 500 MG TAB              |    112 |   0.02 |  96.77
+ 668 |  74312004349 | CRANBERRY 4200 MG+VIT CAPS         |    112 |   0.02 |  96.79
+ 669 |  00143117301 | CAPTOPRIL 50 MG TABLET             |    112 |   0.02 |   96.8
+ 670 |  00185111160 | BUPropION  SR 200 MG TAB*DN        |    112 |   0.02 |  96.82
+ 671 |  00054252625 | LITHIUM CARB 150 MG CAP            |    112 |   0.02 |  96.83
+ 672 |  00185013001 | BUMETANIDE 2 MG TAB                |    112 |   0.02 |  96.85
+ 673 |  68462018905 | NAPROXEN 375 MG TAB                |    112 |   0.02 |  96.87
+ 674 |  00781564101 | CARB-LEVO-ENTA 125MG               |    112 |   0.02 |  96.88
+ 675 |  00054001025 | FLECAINIDE 50 MG TAB               |    112 |   0.02 |   96.9
+ 676 |  68382048428 | MESALAMINE 800 MG DR TAB           |    112 |   0.02 |  96.91
+ 677 |  00603506221 | PERPHENAZINE 8 MG TAB              |    112 |   0.02 |  96.93
+ 678 |  51991079606 | RIVASTIGMINE 6 MG CAPSULE          |    112 |   0.02 |  96.94
+ 679 |  00781149668 | AZITHROMYCIN 250 MG UD TAB         |    108 |   0.02 |  96.96
+ 680 |  65862001801 | CEPHALEXIN 250 MG CAP              |    105 |   0.01 |  96.97
+ 681 |  31722020090 | FOSINOPRIL 10 MG TAB               |    105 |   0.01 |  96.99
+ 682 |  03076864427 | OMEGA 3-6-9 SOFTGEL*CP*            |    102 |   0.01 |     97
+ 683 |  00527179105 | FLUPHENAZINE 10 MG TAB             |    102 |   0.01 |  97.02
+ 684 |  00071041724 | NITROSTAT 0.3MG*DNC* TAB SL        |    100 |   0.01 |  97.03
+ 685 |  76653601976 | MAGNESIUM CITRATE 200MG(ORI        |    100 |   0.01 |  97.04
+ 686 |  73373900117 | L METHIONINE 500MG CAP(ORIG        |    100 |   0.01 |  97.06
+ 687 |  50580049660 | TYLENOL 325 MG TAB                 |    100 |   0.01 |  97.07
+ 688 |  59762501401 | SPIRONOLACT/HCTZ 25/25 TAB         |     98 |   0.01 |  97.09
+ 689 |  00591390087 | MEMANTINE 5-10 MG TITRATION        |     98 |   0.01 |   97.1
+ 690 |  42192032901 | NP THYROID 30 MG TABLET            |     98 |   0.01 |  97.11
+ 691 |  11845053301 | ACIDOPHILUS-PECTIN CAPSULE         |     97 |   0.01 |  97.13
+ 692 |  68001025204 | FLUCONAZOLE 100 MG TABLET          |     96 |   0.01 |  97.14
+ 693 |  00310028360 | SEROQUEL XR 300 MG  *DNC*TA        |     95 |   0.01 |  97.15
+ 694 |  00185064910 | DIPHENHYdramine 50 MG CAPS         |     94 |   0.01 |  97.17
+ 695 |  00378617301 | METOLAZONE 5 MG TABLET             |     93 |   0.01 |  97.18
+ 696 |  00904634952 | RANITIDINE 75 MG TAB               |     92 |   0.01 |  97.19
+ 697 |  00904052660 | VITAMIN C 500 MG CHEW TAB          |     92 |   0.01 |  97.21
+ 698 |  43292055540 | B COMPLEX OPT 100 TABLET           |     91 |   0.01 |  97.22
+ 699 |  55253060130 | TIAGABINE HCL 4 MG TAB             |     90 |   0.01 |  97.23
+ 700 |  13668009190 | PRAMIPEX 0.125MG TAB               |     90 |   0.01 |  97.24
+ 701 |  24208043262 | PRESERVISION AREDS TABLET          |     90 |   0.01 |  97.26
+ 702 |  68462010810 | TOPIRAMATE 25 MG*DNC*TAB           |     90 |   0.01 |  97.27
+ 703 |  00904062960 | NIACIN 250 MG TR CAP               |     90 |   0.01 |  97.28
+ 704 |  00378073401 | FLUOXETINE 10MG*DNC* TAB           |     90 |   0.01 |  97.29
+ 705 |  53451010101 | HORIZANT ER 600MG (ORIG)           |     90 |   0.01 |  97.31
+ 706 |  00781148601 | AMITRIPTYLINE  10 MG TAB           |     90 |   0.01 |  97.32
+ 707 |  54092025490 | FOSRENOL 1000 MG CHEW(ORIG         |     90 |   0.01 |  97.33
+ 708 |  00067434730 | SLOW FE 142 MG*DNC*(UD)            |     90 |   0.01 |  97.34
+ 709 |  00056047492 | SUSTIVA 200MG CAP                  |     90 |   0.01 |  97.36
+ 710 |  65862058701 | AMLODIPINE-BENAZ 10-40MG CA        |     90 |   0.01 |  97.37
+ 711 |  50383017290 | LEVOCARNITINE 330 MG TABLET        |     90 |   0.01 |  97.38
+ 712 |  50580072824 | ZYRTEC-D TABLET (UD)*DNC*          |     90 |   0.01 |   97.4
+ 713 |  00536375505 | DOCUSATE CALC 240 MG CAP           |     90 |   0.01 |  97.41
+ 714 |  00002512330 | EFFIENT 10 MG(ORIG)                |     90 |   0.01 |  97.42
+ 715 |  00071101568 | LYRICA 100 MG CAPSULE              |     90 |   0.01 |  97.43
+ 716 |  00603506321 | PERPHENAZINE 16 MG TAB             |     90 |   0.01 |  97.45
+ 717 |  51660014290 | VALSARTAN 160 MG TAB(ORIG)         |     90 |   0.01 |  97.46
+ 718 |  51991079506 | RIVASTIGMINE 4.5 MG CAPSULE        |     88 |   0.01 |  97.47
+ 719 |  51991081390 | FOLTANX TABLET                     |     88 |   0.01 |  97.48
+ 720 |  43199001101 | HYOSCYAMINE 0.125MG SL*DNC*        |     88 |   0.01 |   97.5
+ 721 |  00008121130 | PRISTIQ 50 MG TAB *DNC*            |     88 |   0.01 |  97.51
+ 722 |  09044023960 | MAGNESIUM OXIDE 500MG TABS         |     88 |   0.01 |  97.52
+ 723 |  00574022001 | LIOTHYRONINE SOD 5 MCG TAB         |     88 |   0.01 |  97.53
+ 724 |  68001021300 | LOVASTATIN 10 MG TAB               |     88 |   0.01 |  97.54
+ 725 |  00115053301 | FENOFIBRATE 200 MG CAPSULE         |     88 |   0.01 |  97.56
+ 726 |  00310028460 | SEROQUEL XR 400 MG  *DNC*TA        |     88 |   0.01 |  97.57
+ 727 |  66536002561 | VITAMIN K2 100MCG CAP              |     86 |   0.01 |  97.58
+ 728 |  00456122830 | NAMZARIC 28 MG-10 MG CAP           |     86 |   0.01 |  97.59
+ 729 |  00904421813 | VITAMIN B-12 250 MCG TABLET        |     86 |   0.01 |  97.61
+ 730 |  00536106401 | DOCUSATE SODIUM 250 MG CAP         |     86 |   0.01 |  97.62
+ 731 |  00904434260 | NIACIN TR 500 MG*DNC*TAB           |     86 |   0.01 |  97.63
+ 732 |  62559015801 | FLUVOXAMINE MALEATE 25 MG T        |     86 |   0.01 |  97.64
+ 733 |  00310009530 | DALIRESP 500 MCG TABLET            |     86 |   0.01 |  97.65
+ 734 |  00527105001 | ACETAzolamide 250 MG TAB           |     84 |   0.01 |  97.67
+ 735 |  00378312501 | DOXEPIN 25 MG CAPSULE              |     84 |   0.01 |  97.68
+ 736 |  42865030002 | ZENPEP DR 5000 UNITS CAPSU         |     84 |   0.01 |  97.69
+ 737 |  00527179001 | FLUPHENAZINE 5 MG TAB              |     84 |   0.01 |   97.7
+ 738 |  00394025009 | GLUCOSAMINE 500 MG TAB             |     84 |   0.01 |  97.71
+ 739 |  68682010110 | PENTOXIFYLLINE 400MG*DNC*TA        |     84 |   0.01 |  97.72
+ 740 |  00378230201 | PRAZOSIN 2MG CAPSULE               |     84 |   0.01 |  97.74
+ 741 |  45802032530 | GUAIFENESIN ER 1200 MG*UD          |     84 |   0.01 |  97.75
+ 742 |  16729003410 | LETROZOLE 2.5 MG TAB               |     84 |   0.01 |  97.76
+ 743 |  51991077133 | LANSOPRAZOLE DR15MG  *DNC*C        |     84 |   0.01 |  97.77
+ 744 |  59762010401 | SULFASALAZINE EC DR 500MG*D        |     84 |   0.01 |  97.78
+ 745 |  00032120607 | CREON DR 6000 UNIT*DNC* CA         |     84 |   0.01 |  97.79
+ 746 |  60505311203 | OLANZAPINE 7.5 MG TAB              |     84 |   0.01 |  97.81
+ 747 |  00456140230 | BYSTOLIC 2.5 MG TABLET             |     84 |   0.01 |  97.82
+ 748 |  34601709660 | FEOSOL 45 MG CARBONYL IRON         |     84 |   0.01 |  97.83
+ 749 |  00536102410 | CALCIUM CARBONATE 648 MG TA        |     84 |   0.01 |  97.84
+ 750 |  51672400105 | NORTRIPTYLINE HCL 10 MG CAP        |     84 |   0.01 |  97.85
+ 751 |  00904522452 | LACTASE 3000IU CAP                 |     84 |   0.01 |  97.87
+ 752 |  49884021102 | PROPAFENONE HCL SR 425 MG C        |     84 |   0.01 |  97.88
+ 753 |  68682040910 | CHLORDIAZEPOX-CLIDINIUM            |     84 |   0.01 |  97.89
+ 754 |  68001018705 | QUINAPRIL 20 MG TAB                |     84 |   0.01 |   97.9
+ 755 |  65162037310 | OXYBUTYNIN ER15MG*DNC* TAB         |     84 |   0.01 |  97.91
+ 756 |  51991081701 | PROPRANOLOL ER 60 MG *DNC*         |     84 |   0.01 |  97.92
+ 757 |  00054011413 | VALACYCLOVIR 500MG      TAB        |     84 |   0.01 |  97.94
+ 758 |  63402030230 | LATUDA 20 MG TABLET                |     84 |   0.01 |  97.95
+ 759 |  00378425001 | DOXEPIN 50 MG CAPSULE              |     83 |   0.01 |  97.96
+ 760 |  23155001701 | TETRACYCLINE 250 MG CAPSULE        |     80 |   0.01 |  97.97
+ 761 |  49884008701 | DEXAMETHASONE 4 MG TAB             |     78 |   0.01 |  97.98
+ 762 |  00143211250 | DOXYCYCLINE HYC 100 MG TAB         |     76 |   0.01 |  97.99
+ 763 |  64764017590 | DEXILANT DR 60MG CAPSULE *D        |     74 |   0.01 |     98
+ 764 |  00904319160 | ZINC 50 MG GLUCONATE  TAB          |     74 |   0.01 |  98.01
+ 765 |  00603221421 | AMITRIPTYLINE 50 MG TAB            |     74 |   0.01 |  98.02
+ 766 |  16252061530 | ROSUVASTATIN 5 MG TAB              |     73 |   0.01 |  98.03
+ 767 |  65162066910 | ACEBUTOLOL 200 MG CAPSULE          |     72 |   0.01 |  98.04
+ 768 |  11845013665 | LUTEIN 6 MG SOFTGEL                |     72 |   0.01 |  98.05
+ 769 |  43547026810 | ROPINIROLE HCL 0.25MG TAB          |     72 |   0.01 |  98.06
+ 770 |  00310075590 | CRESTOR 5 MG TAB                   |     72 |   0.01 |  98.07
+ 771 |  49884083209 | DILTIAZEM CAP 300 MG CD *DN        |     72 |   0.01 |  98.08
+ 772 |  10370019005 | GLIPIZide ER 5 MG *DNC*TAB         |     72 |   0.01 |  98.09
+ 773 |  40985022408 | LUTEIN 10 MG TABLET                |     70 |   0.01 |   98.1
+ 774 |  00054458127 | MERCAPTOPURINE 50 MG TAB           |     70 |   0.01 |  98.11
+ 775 |  04746904472 | ALPHA LIPOIC ACID 600MG CAP        |     70 |   0.01 |  98.12
+ 776 |  16729002015 | PIOGLITAZONE 15 MG TAB             |     70 |   0.01 |  98.13
+ 777 |  00536478701 | B-COMPLEX SOFTGEL CAPS             |     70 |   0.01 |  98.14
+ 778 |  24385046678 | FIBER THERAPY 500 MG CAPLET        |     67 |   0.01 |  98.15
+ 779 |  55513007330 | SENSIPAR 30 MG*DNC* TAB            |     64 |   0.01 |  98.16
+ 780 |  33342012110 | SILDENAFIL 20 MG  *DNC*TAB         |     64 |   0.01 |  98.17
+ 781 |  65862053650 | LEVOFLOXACIN 250 MG TAB            |     63 |   0.01 |  98.18
+ 782 |  65862070020 | CEFUROXIME AXETIL 500MG *DN        |     62 |   0.01 |  98.19
+ 783 |  31191709502 | THERAGRAN-M PREMIER 50 PLUS        |     61 |   0.01 |   98.2
+ 784 |  64980017303 | FOLITAB 500 CAPLET                 |     61 |   0.01 |   98.2
+ 785 |  67253046010 | GLYBURide MICRO 1.5 MG TAB         |     60 |   0.01 |  98.21
+ 786 |  00115052201 | FENOFIBRATE 134 MG CAPSULE         |     60 |   0.01 |  98.22
+ 787 |  07431217243 | GINKGO BILOBA 30 MG CAP            |     60 |   0.01 |  98.23
+ 788 |  16729002115 | PIOGLITAZONE 30 MG TAB             |     60 |   0.01 |  98.24
+ 789 |  00603255321 | BUTALBITAL/CAFF/APAP/COD CP        |     60 |   0.01 |  98.25
+ 790 |  49884040191 | RISPERIDONE ODT 2MG *DNC           |     60 |   0.01 |  98.26
+ 791 |  59762374202 | MEDROXYPROGESterone 10 MG T        |     60 |   0.01 |  98.26
+ 792 |  00115441101 | DANTROLENE SODIUM 25 MG CAP        |     60 |   0.01 |  98.27
+ 793 |  00904603652 | CALCIUM 500+ D400 CHEW TAB         |     60 |   0.01 |  98.28
+ 794 |  59746038306 | TERAZOSIN 1 MG CAP                 |     60 |   0.01 |  98.29
+ 795 |  61958070101 | TRUVADA (ORIG)                     |     60 |   0.01 |   98.3
+ 796 |  74312441905 | SAW PALMETO 450                    |     60 |   0.01 |  98.31
+ 797 |  68382034606 | DONEPEZIL ODT 5 MG  TAB *DN        |     60 |   0.01 |  98.31
+ 798 |  00071101668 | LYRICA 150 MG CAPSULE              |     60 |   0.01 |  98.32
+ 799 |  68180041006 | IRBESARTAN 75 MG TAB               |     60 |   0.01 |  98.33
+ 800 |  00185002201 | ORPHENADRINE100MG*DNC* SA T        |     60 |   0.01 |  98.34
+ 801 |  76653602603 | UBIQUINOL 50 MG (ORIG)             |     60 |   0.01 |  98.35
+ 802 |  00003362412 | REYATAZ 150MG CAP(ORIG)            |     60 |   0.01 |  98.36
+ 803 |  00069024230 | TOVIAZ ER 4 MG *DNC*TAB            |     60 |   0.01 |  98.36
+ 804 |  50532011510 | HYOSCYAMINE ER 0.375MG*DNC         |     60 |   0.01 |  98.37
+ 805 |  00143176901 | ISOSORBIDE DN 5 MG TAB             |     60 |   0.01 |  98.38
+ 806 |  59746011306 | PROCHLORPERAZINE 5 MG TAB          |     60 |   0.01 |  98.39
+ 807 |  00131247735 | VIMPAT 50 MG TAB                   |     60 |   0.01 |   98.4
+ 808 |  76280084221 | CRANACTIN AF CRANBERRY EXTR        |     60 |   0.01 |  98.41
+ 809 |  16500007909 | FLINTSTONES  W/IRON CHEW TA        |     60 |   0.01 |  98.41
+ 810 |  87651030152 | AZO STANDARD 95MG (ORIG)           |     60 |   0.01 |  98.42
+ 811 |  65162032109 | NIACIN ER 500 MG*DNC* TAB          |     60 |   0.01 |  98.43
+ 812 |  76439036090 | L-METHYL-MC TABLET                 |     60 |   0.01 |  98.44
+ 813 |  60505014502 | OMEPRAZOLE DR10MG*DNC* CAPS        |     60 |   0.01 |  98.45
+ 814 |  00527131801 | TERBUTALINE SULF 2.5MG TAB         |     60 |   0.01 |  98.46
+ 815 |  51991033106 | NEVIRAPINE 200 MG  (ORIG)          |     60 |   0.01 |  98.47
+ 816 |  16500008619 | FLINTSTONES EXTRA C TAB CHE        |     60 |   0.01 |  98.47
+ 817 |  00378862877 | FENOFIBRATE 67MG CAP               |     60 |   0.01 |  98.48
+ 818 |  51991018142 | FERROCITE TAB (UD)                 |     60 |   0.01 |  98.49
+ 819 |  00078048515 | TEKTURNA 150 MG TAB (ORIG)         |     60 |   0.01 |   98.5
+ 820 |  00093440401 | CLOZAPINE 50MG TABLET              |     60 |   0.01 |  98.51
+ 821 |  69543010730 | DESLORATADINE 5 MG TAB             |     60 |   0.01 |  98.52
+ 822 |  00143991901 | GLYBURide MICRO 3 MG TABLET        |     58 |   0.01 |  98.52
+ 823 |  16500053503 | CITRACAL PETITES                   |     58 |   0.01 |  98.53
+ 824 |  65597010730 | BENICAR HCT 40-25 MG TABLET        |     58 |   0.01 |  98.54
+ 825 |  54629085401 | MAGNESIUM 300 MG CAP               |     58 |   0.01 |  98.55
+ 826 |  00065804053 | ICAPS TABLET W/LUTEIN              |     58 |   0.01 |  98.56
+ 827 |  21245565093 | VITAMIN K2 100MCG TAB              |     58 |   0.01 |  98.56
+ 828 |  00074455290 | SYNTHROID 50 MCG TAB               |     58 |   0.01 |  98.57
+ 829 |  59746038410 | TERAZOSIN 2 MG CAP                 |     58 |   0.01 |  98.58
+ 830 |  68180011707 | LEVETIRACETAM ER 500MG*DNC*        |     58 |   0.01 |  98.59
+ 831 |  68462023401 | FELODIPINE ER 5 MG *DNC*TAB        |     58 |   0.01 |   98.6
+ 832 |  64764091830 | ULORIC 40 MG TABLET                |     58 |   0.01 |   98.6
+ 833 |  66582031331 | VYTORIN 10-40 MG TAB               |     58 |   0.01 |  98.61
+ 834 |  00904272752 | STRESS FORMULA WITH ZINC TA        |     56 |   0.01 |  98.62
+ 835 |  31722020901 | TERBINAFINE HCL 250MG*DNC*         |     56 |   0.01 |  98.63
+ 836 |  52544015130 | RAPAFLO 4 MG CAPSULE               |     56 |   0.01 |  98.64
+ 837 |  54629061500 | MELATONIN 5 MG  SBL                |     56 |   0.01 |  98.64
+ 838 |  64980016301 | BETHANECHOL 50 MG TAB              |     56 |   0.01 |  98.65
+ 839 |  68040060616 | LIMBREL500 CAPSULE                 |     56 |   0.01 |  98.66
+ 840 |  50111046901 | PROPRANOLOL 40 MG TAB              |     56 |   0.01 |  98.67
+ 841 |  31722053201 | TORSEMIDE 100MG TABLET             |     56 |   0.01 |  98.68
+ 842 |  60505252806 | ZIPRASIDONE 20MG CAPS              |     56 |   0.01 |  98.68
+ 843 |  00781118201 | NADOLOL 40 MG TAB                  |     56 |   0.01 |  98.69
+ 844 |  00054026225 | CALCIUM GLUC 500 MG TAB            |     56 |   0.01 |   98.7
+ 845 |  00591247260 | TAMOXIFEN 10 MG TAB                |     56 |   0.01 |  98.71
+ 846 |  00527131501 | RIFAMPIN 300 MG CAPSULE            |     56 |   0.01 |  98.71
+ 847 |  31722052901 | TORSEMIDE 5 MG TABLET              |     56 |   0.01 |  98.72
+ 848 |  64980010401 | PHOSPHA 250 NEUTRAL TABLET         |     56 |   0.01 |  98.73
+ 849 |  00591067601 | DICLOFENAC ER100MG*DNC* TA         |     56 |   0.01 |  98.74
+ 850 |  00456342133 | NAMENDA XR21 MG*DNC*CAP            |     56 |   0.01 |  98.75
+ 851 |  00781520492 | LOSARTAN HCTZ 100/12.5MG TA        |     56 |   0.01 |  98.75
+ 852 |  00904640360 | FERATE FERROUS GLUCO 27 MG         |     56 |   0.01 |  98.76
+ 853 |  65862008201 | GLYBURide-METFOR 5/500 MG          |     56 |   0.01 |  98.77
+ 854 |  00093075601 | PIROXICAM 10MG CAP*DNC*            |     56 |   0.01 |  98.78
+ 855 |  68462025601 | ROPINIROLE HCL 2MG  TAB            |     56 |   0.01 |  98.79
+ 856 |  65597010690 | BENICAR HCT 40-12.5 MG TAB         |     56 |   0.01 |  98.79
+ 857 |  00904640270 | BREWER'S YEAST TAB                 |     56 |   0.01 |   98.8
+ 858 |  00832030300 | CHLORproMAZINE 100 MG TAB          |     56 |   0.01 |  98.81
+ 859 |  23594050501 | MILLIPRED 5 MG TAB                 |     56 |   0.01 |  98.82
+ 860 |  00904316360 | LECITHIN 1200MG(19GR) CAPS         |     56 |   0.01 |  98.82
+ 861 |  64764017130 | DEXILANT DR 30 MG CAP *DNC*        |     56 |   0.01 |  98.83
+ 862 |  00093205005 | TOLTERODINE ER 2MG*DNC* CAP        |     56 |   0.01 |  98.84
+ 863 |  00378104901 | DOXEPIN 10 MG CAPSULE              |     56 |   0.01 |  98.85
+ 864 |  53746017901 | METFORMIN ER 750 MG TABLET         |     56 |   0.01 |  98.86
+ 865 |  00603577021 | SOTALOL 120 MG TABLET              |     56 |   0.01 |  98.86
+ 866 |  00603577121 | SOTALOL 160 MG TAB                 |     56 |   0.01 |  98.87
+ 867 |  52937000120 | VASCEPA 1 GM CAPSULE               |     56 |   0.01 |  98.88
+ 868 |  00904422560 | COD LIVER OIL GEL CAP              |     56 |   0.01 |  98.89
+ 869 |  00054002821 | CILOSTAZOL 50 MG TABLET            |     56 |   0.01 |   98.9
+ 870 |  00591578201 | ATENOLOL/CHLORTHAL 50/25           |     56 |   0.01 |   98.9
+ 871 |  68180028101 | ETHAMBUTOL HCL 400 MG TAB          |     56 |   0.01 |  98.91
+ 872 |  00555901658 | SPRINTEC 28 DAY TABLET             |     56 |   0.01 |  98.92
+ 873 |  00093739398 | NIACIN ER 750 MG TAB*DNC*          |     56 |   0.01 |  98.93
+ 874 |  00555901858 | TRI-SPRINTEC TABLET                |     56 |   0.01 |  98.93
+ 875 |  00310610530 | ONGLYZA 5 MG TABLET                |     56 |   0.01 |  98.94
+ 876 |  68180031406 | IMIPRAMINE PAM 75 MG               |     56 |   0.01 |  98.95
+ 877 |  00904208560 | VITAMIN A 10000IU CAP              |     56 |   0.01 |  98.96
+ 878 |  66758018001 | KLOR-CON M15 TABLET                |     56 |   0.01 |  98.97
+ 879 |  57664039288 | VENLAFAXINE HCL 25 MG TAB          |     56 |   0.01 |  98.97
+ 880 |  00054418125 | DEXAMETHASONE 1 MG TABLET          |     56 |   0.01 |  98.98
+ 881 |  00536467801 | VITAMIN B-1 50 MG TABLET           |     56 |   0.01 |  98.99
+ 882 |  00603580121 | SULFAZINE 500 MG *DNC* TABL        |     56 |   0.01 |     99
+ 883 |  00591231519 | VALSARTAN-HCTZ 80-12.5 MG T        |     56 |   0.01 |     99
+ 884 |  00536718601 | SEA-OMEGA3 ( FISH OIL1200)*        |     56 |   0.01 |  99.01
+ 885 |  00456114030 | VIIBRYD 40MG TAB                   |     56 |   0.01 |  99.02
+ 886 |  63402030830 | LATUDA 80MG TAB                    |     56 |   0.01 |  99.03
+ 887 |  63402031230 | LATUDA 120 MG TABLET               |     56 |   0.01 |  99.04
+ 888 |  00781149001 | AMITRIPTYLINE 100 MG TA            |     56 |   0.01 |  99.04
+ 889 |  13668009590 | PRAMIPEXOLE 1.5 MG TAB             |     56 |   0.01 |  99.05
+ 890 |  00378612001 | DILTIAZEM ER120 MGCAP*DNC*1        |     56 |   0.01 |  99.06
+ 891 |  43547033103 | IRBESARTAN-HCTZ 300-12.5 MG        |     56 |   0.01 |  99.07
+ 892 |  00005555623 | CALTRATE/ D  PLUS MINERAL T        |     56 |   0.01 |  99.08
+ 893 |  00904262160 | CHILD CHEW MULTIVITAMIN TAB        |     56 |   0.01 |  99.08
+ 894 |  50458054160 | INVOKAMET 50-1000 MG TAB           |     56 |   0.01 |  99.09
+ 895 |  67618010760 | SLOW-MAG TAB -71.5 MG (ORIG        |     56 |   0.01 |   99.1
+ 896 |  49884056111 | LAMOTRIGINE ER 25 MG TABLET        |     56 |   0.01 |  99.11
+ 897 |  59762285801 | EXEMESTANE 25 MG TAB               |     56 |   0.01 |  99.11
+ 898 |  31722026890 | QUINAPRIL 10 MG TAB                |     56 |   0.01 |  99.12
+ 899 |  00228285311 | GUANFACINE HCL ER 3 MG TABL        |     56 |   0.01 |  99.13
+ 900 |  00093596101 | GUANFACINE HCL ER 2 MG TAB         |     56 |   0.01 |  99.14
+ 901 |  00555070102 | DEMECLOCYCLINE 150 MG TABLE        |     56 |   0.01 |  99.15
+ 902 |  11845012995 | MILK THISTLE 150 MG CAP            |     56 |   0.01 |  99.15
+ 903 |  00378021401 | HALOPERIDOL 2 MG TABLET            |     56 |   0.01 |  99.16
+ 904 |  00143117110 | CAPTOPRIL 12.5 MG TAB              |     56 |   0.01 |  99.17
+ 905 |  51991064501 | V-C FORTE CAPSULE                  |     56 |   0.01 |  99.18
+ 906 |  00074706990 | SYNTHROID 150 MCG TABLET           |     56 |   0.01 |  99.19
+ 907 |  00456340733 | NAMENDA XR7 MG*DNC* CAP            |     53 |   0.01 |  99.19
+ 908 |  64764008060 | AMITIZA 8 MCG SOFTGEL *DNC*        |     52 |   0.01 |   99.2
+ 909 |  60505254406 | GALANTAMINE 12 MG TAB              |     51 |   0.01 |  99.21
+ 910 |  50742019001 | CYPROHEPTADINE 4 MG TAB            |     48 |   0.01 |  99.21
+ 911 |  65162053750 | BENZONATATE 200 MG CAP *DNC        |     48 |   0.01 |  99.22
+ 912 |  16729003001 | METHYLDOPA 250 MG TABLET           |     45 |   0.01 |  99.23
+ 913 |  00076011101 | URIBEL CAPSULE                     |     45 |   0.01 |  99.23
+ 914 |  67877048384 | TELMISARTAN 40 MG (UD)             |     44 |   0.01 |  99.24
+ 915 |  65862053820 | LEVOFLOXACIN 750 MG TAB            |     44 |   0.01 |  99.25
+ 916 |  00378207701 | LISINOPRIL 30 MG TAB               |     44 |   0.01 |  99.25
+ 917 |  49348012813 | FAMOTIDINE 10MG OTC  TAB           |     44 |   0.01 |  99.26
+ 918 |  00536245001 | ZINC SULFATE 220(50MG) MG T        |     44 |   0.01 |  99.26
+ 919 |  46122004075 | ALLEGRA ALLERGY 180 MG *DNC        |     43 |   0.01 |  99.27
+ 920 |  00054011513 | VALACYCLOVIR HCL 1 GRAM TAB        |     42 |   0.01 |  99.28
+ 921 |  60258016001 | RENA-VITE TABLET                   |     42 |   0.01 |  99.28
+ 922 |  00310610030 | ONGLYZA 2.5 MG                     |     42 |   0.01 |  99.29
+ 923 |  13811067730 | LEFLUNOMIDE 10 MG TABLET           |     42 |   0.01 |  99.29
+ 924 |  11523726503 | ZEGERID OTC 20-1100 MG CAP         |     42 |   0.01 |   99.3
+ 925 |  57664039488 | VENLAFAXINE HCL 50 MG TAB          |     42 |   0.01 |  99.31
+ 926 |  65862017760 | CEFDINIR 300 MG CAPSULE            |     42 |   0.01 |  99.31
+ 927 |  00054019813 | FAMCICLOVIR 500 MG TABLET          |     41 |   0.01 |  99.32
+ 928 |  92961001633 | ESTROVEN ENERGY CAP(orig)          |     40 |   0.01 |  99.32
+ 929 |  00573016930 | ADVIL 200 MG LIQUI-GEL CAP         |     40 |   0.01 |  99.33
+ 930 |  00310028160 | SEROQUEL XR 150 MG TAB             |     37 |   0.01 |  99.33
+ 931 |  68462018805 | NAPROXEN 250 MG TAB                |     37 |   0.01 |  99.34
+ 932 |  65862069920 | CEFUROXIME AXETIL 250 MG           |     34 |      0 |  99.34
+ 933 |  42799080601 | IVERMECTIN 3 MG TAB                |     33 |      0 |  99.35
+ 934 |  74300000609 | UNISOM SLEEP AID TAB 25MG (        |     32 |      0 |  99.35
+ 935 |  81506600136 | DIGESTIIVE ADVANTAGE PROBIO        |     32 |      0 |  99.36
+ 936 |  68382026606 | PARICALCITOL1 MCG*DNC*CAPS         |     32 |      0 |  99.36
+ 937 |  68001025404 | FLUCONAZOLE 200 MG TAB             |     31 |      0 |  99.37
+ 938 |  00131326832 | VENLAFAXINE ER 225 MG TAB          |     31 |      0 |  99.37
+ 939 |  66582031531 | VYTORIN 10-80 MG TAB               |     31 |      0 |  99.37
+ 940 |  00310075430 | CRESTOR 40MG TABLET                |     31 |      0 |  99.38
+ 941 |  10370021901 | POTASSIUM CL ER 8MEQ CAP *D        |     31 |      0 |  99.38
+ 942 |  26974041080 | DIFF-STAT CAPSULE                  |     31 |      0 |  99.39
+ 943 |  00074662490 | SYNTHROID 100 MCG TAB              |     31 |      0 |  99.39
+ 944 |  00074333330 | NORVIR 100 MG TAB (ORIG 30)        |     30 |      0 |   99.4
+ 945 |  00378638001 | VERAPAMIL ER 180 MG *DNC*CA        |     30 |      0 |   99.4
+ 946 |  00904557252 | SIMETHICONE CAPS 180MG             |     30 |      0 |   99.4
+ 947 |  00143314150 | DOXYCYCLINE HYC 50MG CAPS          |     30 |      0 |  99.41
+ 948 |  49884027711 | OLANZAPINE/FLUOX 3/25MG*DNC        |     30 |      0 |  99.41
+ 949 |  64764073030 | TRINTELLIX 10 MG TAB(ORIG)         |     30 |      0 |  99.42
+ 950 |  43547027909 | IRBESARTAN 300 MG TAB              |     30 |      0 |  99.42
+ 951 |  00536407701 | NIACIN 500 MG SA CAP               |     30 |      0 |  99.43
+ 952 |  00054054518 | TELMISARTAN-HCTZ 40-12.5(UD        |     30 |      0 |  99.43
+ 953 |  00781537864 | TELMISARTAN 80 MG (UD)             |     30 |      0 |  99.43
+ 954 |  00054054618 | TELMISARTAN-HCTZ 80-12.5(UD        |     30 |      0 |  99.44
+ 955 |  65162032309 | NIACIN ER 1000 MG*DNC* TAB         |     30 |      0 |  99.44
+ 956 |  68382007816 | FENOFIBRIC ACID DR 135MG*DN        |     30 |      0 |  99.45
+ 957 |  51801001230 | EFFER-K 20 MEQ TABLET EFF          |     30 |      0 |  99.45
+ 958 |  76439030810 | HYOSCYAMINE SULF 0.125 MG T        |     30 |      0 |  99.45
+ 959 |  30768001136 | ST. JOHNS WORT 300 MG CAP          |     30 |      0 |  99.46
+ 960 |  10370019105 | GLIPIZide ER 10MG *DNC*TAB         |     30 |      0 |  99.46
+ 961 |  61958200201 | DESCOVY 200-25 MG TAB(ORIG)        |     30 |      0 |  99.47
+ 962 |  54505033310 | HYDROCORTISONE 20MG TAB            |     30 |      0 |  99.47
+ 963 |  00603350816 | POTASSIUM CL 25 MEQ TAB EFF        |     30 |      0 |  99.48
+ 964 |  65162052111 | PROMETHAZINE 25 MG TAB             |     30 |      0 |  99.48
+ 965 |  15584010101 | ATRIPLA TAB (ORIG)                 |     30 |      0 |  99.48
+ 966 |  65862002306 | MIRTAZAPINE 45MG ODT TAB           |     30 |      0 |  99.49
+ 967 |  52747080060 | HEMOCYTE PLUS CAPS                 |     30 |      0 |  99.49
+ 968 |  68546014256 | AZILECT 0.5 MG TABLET              |     30 |      0 |   99.5
+ 969 |  00591264001 | BUTALB-ACETAMIN-CAFF 50-300        |     30 |      0 |   99.5
+ 970 |  68180016006 | AZITHROMYCIN 250 MG TAB            |     30 |      0 |  99.51
+ 971 |  00591359360 | DRONABINOL 10 MG CAP *DNC*         |     30 |      0 |  99.51
+ 972 |  00904001259 | CHLORPHENIRAMINE 4 MG TAB          |     30 |      0 |  99.51
+ 973 |  00603506121 | PERPHENAZINE 4 MG TABLET           |     30 |      0 |  99.52
+ 974 |  00591359160 | DRONABINOL 2.5 MG CAP *DNC*        |     30 |      0 |  99.52
+ 975 |  00832030200 | CHLORproMAZINE 50 MG TABLET        |     30 |      0 |  99.53
+ 976 |  00591336901 | BUTALBITAL/APAP/CAFF 50-325        |     30 |      0 |  99.53
+ 977 |  68180077106 | AMLOD-VALSA-HCTZ 5-160-12.5        |     30 |      0 |  99.53
+ 978 |  49884070155 | CLOMIPHENE CIT 50MG (UD) TA        |     30 |      0 |  99.54
+ 979 |  61958060101 | EMTRIVA 200 MG CAP (ORIG)          |     30 |      0 |  99.54
+ 980 |  00904198380 | ACETAMINOPHEN 500MG CAPLET         |     30 |      0 |  99.55
+ 981 |  55111012960 | RANITIDINE 150 MG CAPSULE          |     30 |      0 |  99.55
+ 982 |  00003519410 | PRAVACHOL 40MG TAB                 |     30 |      0 |  99.56
+ 983 |  00456046101 | ARMOUR THYROID 120 MG TABLE        |     30 |      0 |  99.56
+ 984 |  00555070284 | DEMECLOCYCLINE 300 MG TAB          |     30 |      0 |  99.56
+ 985 |  00456111030 | VIIBRYD 10 MG TABLET               |     30 |      0 |  99.57
+ 986 |  00603548521 | PROPRANOLOL 60 MG TAB              |     30 |      0 |  99.57
+ 987 |  64764058030 | BRINTELLIX 20 MG TAB  (ORIG        |     30 |      0 |  99.58
+ 988 |  13811053990 | FOLIVANE-PLUS CAPSULE              |     30 |      0 |  99.58
+ 989 |  61958040101 | VIREAD 300MG T (ORIG)              |     30 |      0 |  99.58
+ 990 |  60505265705 | TRIAMTERENE-HCTZ 75-50 MG T        |     30 |      0 |  99.59
+ 991 |  00574014560 | TROSPIUM CHLOR 20 MG TAB           |     30 |      0 |  99.59
+ 992 |  00591569401 | MINOCYCLINE 50 MG*DNC* CAP         |     30 |      0 |   99.6
+ 993 |  60569049501 | UROMAG 140 MG CAPSULE              |     30 |      0 |   99.6
+ 994 |  00002446230 | CIALIS 5 MG TABLET                 |     30 |      0 |  99.61
+ 995 |  76439035890 | L-METHYLFOLATE CALCIUM 15MG        |     30 |      0 |  99.61
+ 996 |  43292055841 | SAW PALMETTO 500 MG SOFTG          |     30 |      0 |  99.61
+ 997 |  66869010490 | LIVALO 1 MG TAB                    |     30 |      0 |  99.62
+ 998 |  65862058201 | AMLODIPINE-BENZ 2.5-10MG           |     30 |      0 |  99.62
+ 999 |  30768000651 | VITAMIN D3 400IU+ VIT A 700        |     30 |      0 |  99.63
+1000 |  00378644001 | VERAPAMIL 240 MG 24HR CAP          |     30 |      0 |  99.63
+1001 |  03504614048 | GLUCOSAMINE SULF 750MG             |     30 |      0 |  99.64
+1002 |  50458014030 | INVOKANA 100 MG TABLET             |     30 |      0 |  99.64
+1003 |  00002323930 | STRATTERA 60MG *DNC* CAP           |     30 |      0 |  99.64
+1004 |  31604002727 | SUPER B-COMPLEX FOLIC+VIT C        |     30 |      0 |  99.65
+1005 |  00574022201 | LIOTHYRONINE SOD 25 MCG TAB        |     30 |      0 |  99.65
+1006 |  65162055310 | METAXALONE 800 MG TAB              |     30 |      0 |  99.66
+1007 |  30768000348 | MILK THISTLE 240 MG XTRA CA        |     30 |      0 |  99.66
+1008 |  65162076810 | WARFARIN SOD 7.5 MG TAB            |     30 |      0 |  99.66
+1009 |  64125013401 | IMIPRAMINE HCL 25 MG TAB           |     30 |      0 |  99.67
+1010 |  00228249710 | NIFEDIPINE 10 MG*DNC* CAP          |     30 |      0 |  99.67
+1011 |  00046110281 | PREMARIN 0.625 MG TABLET           |     29 |      0 |  99.68
+1012 |  63824007236 | MUCINEX DM MAX 1200/60*DNC*        |     28 |      0 |  99.68
+1013 |  60505005501 | SELEGILINE HCL 5 MG CAP            |     28 |      0 |  99.68
+1014 |  00378008001 | INDAPAMIDE 2.5 MG TABLET           |     28 |      0 |  99.69
+1015 |  60258018601 | POLY-IRON150 FORTE                 |     28 |      0 |  99.69
+1016 |  00904420352 | SELENIUM 200 MCG TABLET            |     28 |      0 |   99.7
+1017 |  00781578031 | ROPINIROLE HCL ER 2 MG*DNC*        |     28 |      0 |   99.7
+1018 |  74312013321 | FLAXSEED OIL 1200MG CAP            |     28 |      0 |   99.7
+1019 |  55513007430 | SENSIPAR 60 MG*DNC* TAB            |     28 |      0 |  99.71
+1020 |  57237004105 | PENICILLIN VK 500 MG TAB           |     28 |      0 |  99.71
+1021 |  68040061116 | FOSTEUM PLUS CAPS                  |     28 |      0 |  99.72
+1022 |  29300012701 | BISOPROLOL 10 MG TAB               |     28 |      0 |  99.72
+1023 |  50580056340 | MOTRIN PM CAPLET                   |     28 |      0 |  99.72
+1024 |  74312000530 | B-COMPLEX  TIME RELEASE            |     28 |      0 |  99.73
+1025 |  00832049711 | TRIFLUOPERAZINE 10 MG TAB          |     28 |      0 |  99.73
+1026 |  00781224801 | DICLOXACILLIN 250 MG CAP           |     28 |      0 |  99.74
+1027 |  64980015101 | AMILORIDE HCL 5MG TAB              |     28 |      0 |  99.74
+1028 |  62332002531 | THEOPHYLLINE 300MG*DNC* SA         |     28 |      0 |  99.74
+1029 |  00031067762 | ALLBEE C-800 TABLET                |     28 |      0 |  99.75
+1030 |  00378363501 | CETIRIZINE  5MG TABLET             |     28 |      0 |  99.75
+1031 |  00228253010 | NIFEDIPine 20 MG *DNC*CAP          |     28 |      0 |  99.76
+1032 |  00093820401 | CIMETIDINE 400 MG TABLET           |     28 |      0 |  99.76
+1033 |  62175048737 | VERAPAMIL ER PM 300MG*DNC*         |     28 |      0 |  99.76
+1034 |  37000045504 | PRILOSEC OTC 20 MG TABLET          |     28 |      0 |  99.77
+1035 |  00310197030 | MOVANTIK 25 MG TABLET              |     28 |      0 |  99.77
+1036 |  00172208960 | HCTZ 50 MG TAB                     |     28 |      0 |  99.78
+1037 |  36652068962 | Z-BEC TABLET                       |     28 |      0 |  99.78
+1038 |  65862058601 | AMLODIPINE-BENAZ 10/20 CAP         |     28 |      0 |  99.78
+1039 |  68682070730 | DILTIAZEM ER 300 MG TAB *DN        |     28 |      0 |  99.79
+1040 |  64764080530 | ROZEREM 8 MG  *DNC*TAB             |     28 |      0 |  99.79
+1041 |  65862066430 | ARIPIPRAZOLE 15 MG TAB             |     28 |      0 |  99.79
+1042 |  62037070090 | TAZTIA XT 360 MG CAP               |     28 |      0 |   99.8
+1043 |  42192033001 | NP THYROID 60 MG TABLET            |     28 |      0 |   99.8
+1044 |  31722020190 | FOSINOPRIL 20 MG TAB               |     28 |      0 |  99.81
+1045 |  00186077660 | BRILINTA 60 MG TAB                 |     28 |      0 |  99.81
+1046 |  66869040490 | LIVALO 4 MG TAB                    |     28 |      0 |  99.81
+1047 |  53489032901 | SPIRONOLACTONE 100 MG TAB          |     28 |      0 |  99.82
+1048 |  64980014703 | RISAQUAD CAPSULES                  |     28 |      0 |  99.82
+1049 |  10542001210 | DIALYVITE 1000 W/ZINC TAB          |     28 |      0 |  99.83
+1050 |  00904268760 | L-LYSINE 500 MG TABLET             |     28 |      0 |  99.83
+1051 |  68462023501 | FELODIPINE ER 10 MG *DNC*TA        |     28 |      0 |  99.83
+1052 |  00046110081 | PREMARIN 0.3 MG TABLET             |     28 |      0 |  99.84
+1053 |  00074518290 | SYNTHROID 75 MCG TAB               |     28 |      0 |  99.84
+1054 |  00005446391 | CENTRUM SILVER TABLET              |     28 |      0 |  99.85
+1055 |  00591048701 | ESTRADIOL 1MG TABLET               |     28 |      0 |  99.85
+1056 |  00591052801 | ESTRADIOL 0.5 MG TABLET            |     28 |      0 |  99.85
+1057 |  52544027928 | LEVORA 0.15/30 MG TABLET           |     28 |      0 |  99.86
+1058 |  51991002206 | DHEA 25 MG TABLET                  |     28 |      0 |  99.86
+1059 |  00006057561 | JANUMET 50-500 MG(DNC)             |     28 |      0 |  99.87
+1060 |  00378004201 | PERPHEN-AMITRIP 4 MG-10 MG         |     28 |      0 |  99.87
+1061 |  00069024430 | TOVIAZ ER 8 MG *DNC* TAB           |     28 |      0 |  99.87
+1062 |  16500007410 | ONE A DAY WOMEN'S TABLET           |     28 |      0 |  99.88
+1063 |  00054011125 | PERINDOPRIL ERBUMINE 4 MG T        |     28 |      0 |  99.88
+1064 |  68001000300 | NITROFURANTOIN MCR 100MG*DN        |     28 |      0 |  99.88
+1065 |  00093769356 | AMLODIPINE-VALSARTAN 10-320        |     28 |      0 |  99.89
+1066 |  59762672201 | AMLODIPINE-ATORVAST 5-40 MG        |     28 |      0 |  99.89
+1067 |  00093769256 | AMLODIPINE-VALSAR 5-320 MG         |     28 |      0 |   99.9
+1068 |  00781593631 | CANDESARTAN CILEXETIL 4 MG         |     28 |      0 |   99.9
+1069 |  00555007101 | ISONIAZID 300 MG TAB               |     28 |      0 |   99.9
+1070 |  00378222201 | NISOLDIPINE ER 20MG*DNC*TAB        |     28 |      0 |  99.91
+1071 |  35573030230 | UROLET MB 81.6-.12MG TAB           |     28 |      0 |  99.91
+1072 |  00093435901 | CLOZAPINE 25 MG TAB                |     28 |      0 |  99.92
+1073 |  00781118101 | NADOLOL 20MG TAB                   |     28 |      0 |  99.92
+1074 |  00591231719 | VALSARTAN-HCTZ 160-25 MG TA        |     28 |      0 |  99.92
+1075 |  49884082801 | METOPROLOL SUC 200MG*DNC*          |     28 |      0 |  99.93
+1076 |  42799010501 | METHENAMINE MD 500 MG TAB          |     27 |      0 |  99.93
+1077 |  00904623252 | GUAIFENESIN 400 MG TABLET          |     26 |      0 |  99.94
+1078 |  16837088825 | PEPCID COMPLETE TABLET CHEW        |     25 |      0 |  99.94
+1079 |  00573266012 | ALAVERT D-12 HOUR *DNC*TAB         |     24 |      0 |  99.94
+1080 |  00378426153 | ZOLMITRIPTAN 5 MG TAB              |     24 |      0 |  99.95
+1081 |  60258017201 | MAGNESIUM GLUC 500 MG TAB          |     21 |      0 |  99.95
+1082 |  00093226401 | AMOXICILLIN 875 MG TAB             |     20 |      0 |  99.95
+1083 |  00378356899 | ALENDRONATE SOD 35MG(ORIG)         |     20 |      0 |  99.95
+1084 |  53746019401 | NAPROXEN SOD 550MG TAB             |     20 |      0 |  99.96
+1085 |  23155001001 | INDOMETHACIN 25MG *DNC*CAP         |     18 |      0 |  99.96
+1086 |  51293080301 | SALSALATE 500 MG TABLET            |     16 |      0 |  99.96
+1087 |  00658004083 | I-CAPS MULITVIT W/LUTEIN           |     14 |      0 |  99.96
+1088 |  25010021515 | EDECRIN 25 MG TABLET               |     14 |      0 |  99.97
+1089 |  66993011560 | PROPAFENONE HCL ER 325 MG C        |     14 |      0 |  99.97
+1090 |  65597020330 | SAVAYSA 60 MG TAB                  |     14 |      0 |  99.97
+1091 |  00781214501 | AMPICILLIN TR 500MG CAPSULE        |     14 |      0 |  99.97
+1092 |  55111039752 | OMEPRAZOLE MAG DR 20.6 MG C        |     14 |      0 |  99.97
+1093 |  00245018311 | FOLIC ACID-VIT B6-VIT B12 T        |     14 |      0 |  99.98
+1094 |  00536102008 | SIMETHICONE CHEW 125MG             |     14 |      0 |  99.98
+1095 |  50474030001 | THEO-24 300MG*DNC* CAPS SA         |     14 |      0 |  99.98
+1096 |  00781214401 | AMPICILLIN TR 250 MG CAP           |     14 |      0 |  99.98
+1097 |  50580033812 | IMODIUM MULTI-SYMPT REL CPL        |     12 |      0 |  99.98
+1098 |  75826011410 | PHENAZOPYRIDINE 100 MG TAB         |     12 |      0 |  99.98
+1099 |  65862060330 | MOXIFLOXACIN HCL 400 MG TAB        |     10 |      0 |  99.99
+1100 |  00093172001 | WARFARIN SOD 10 MG TAB             |     10 |      0 |  99.99
+1101 |  49884028901 | MEGESTROL 20 MG TAB                |      9 |      0 |  99.99
+1102 |  23155005519 | NARATRIPTAN 2.5MG TAB              |      9 |      0 |  99.99
+1103 |  49884067901 | NIFEDIPINE ER 90MG*DNC*ADAL        |      9 |      0 |  99.99
+1104 |  55111014512 | FLUCONAZOLE 150 MG TAB             |      9 |      0 |  99.99
+1105 |  00093312501 | DICLOXACILLIN 500MG CAP            |      9 |      0 |  99.99
+1106 |  00591570801 | CLINDAMYCIN HCL 150 MG CAPS        |      8 |      0 |  99.99
+1107 |  68462025701 | ROPINIROLE HCL 3 MG TAB            |      8 |      0 |    100
+1108 |  00603459321 | METHYLPREDNISolone 4 MG TAB        |      7 |      0 |    100
+1109 |  00093716956 | AZITHROMYCIN 500 MG TABLET         |      5 |      0 |    100
+1110 |  60505279500 | IBANDRONATE 150MG *UD *DNC*        |      4 |      0 |    100
+1111 |  60505316500 | RISEDRONATE 35MG*DNC* TAB          |      4 |      0 |    100
+1112 |  00591210930 | RISEDRONATE 30MG*DNC* TAB          |      4 |      0 |    100
+1113 |  60505309702 | RISDRONATE 150MG*DNC* TAB          |      3 |      0 |    100
+1114 |  00187170405 | MEPHYTON 5 MG TABLET               |      1 |      0 |    100
+1115 |  00456321060 | NAMENDA 10 MG TAB                  |      0 |      0 |    100

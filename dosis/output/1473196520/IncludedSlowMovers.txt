@@ -1,0 +1,8 @@
+Included Slow Movers: Drugs In the Dosis Machine With Usage Rank > 250
+
+Rank |        NDC11 | Drug Name                          | Quant.
+------------------------------------------------------------------
+ 257 |  60505025103 | TIZANIDINE HCL 2 MG TAB            |    458
+ 280 |  29300013605 | CLONIDINE 0.2 MG TAB               |    403
+ 407 |  64980016201 | BETHANECHOL 25 MG TAB              |    236
+ 410 |  24385036881 | NAPROXEN 220 MG TAB                |    233

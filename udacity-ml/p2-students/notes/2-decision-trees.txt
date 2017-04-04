@@ -1,0 +1,69 @@
+Videos 3-5: Basic Definitions
+--------------------------
+Instances: input data
+Concept: the function that maps inputs to outputs. "Car", "tall", etc. Mapping between objects in the world and 
+Target Concept: what we're trying to find, the concept we're interested in
+Hypothesis class: the set of all concepts we're willing to think about
+Training set: a bunch of instances + labels
+Candidate: a concept that you think might be the target concept
+Testing set: How we figure out if your candidate is good
+
+Decision Trees: Learning
+
+
+ID3 algorithm for building decision tree
+----------------------------------------
+Essentially, the algorithm says:
+- Pick A := "best attribute"
+- Make A the decision attribute for the new node; for each A value, make a descendant
+- Run training data through your tree:
+    - If perfectly classified, then you're done
+    - Else, do it again with another leaf
+
+Pretty straightforward. Question is, how do we pick A, i.e. which attribute is the "best" attribute?
+
+The most common way of quantifying this is to measure "how much does entropy decrease by picking a given attribute A"?
+
+InformationGain(S, A) = Entropy(S) - sum((abs(S_v) / abs(S)) * entropy(S_v) for v in values of attribute)
+S = collection of training examples
+A = training attribute
+
+This is just a before-and-after comparison of entropy, where the after is a weighted average of entropy.
+And entropy is just a measure of how much randomness there is. All points have the same label: no entropy.
+
+Entropy(S) = - sum_v [p(v) * log p(v)]
+
+The best attribute will be the one that maximizes gain.
+
+
+ID3: Bias
+---------
+There are apparently two types of bias we worry about when searching a space:
+1. Restriction Bias: how do you bias your results by restricting your attention to your hypothesis space of choice?
+2. Preference Bias: how do your bias your results by picking a given hypothesis in your hypothesis space?
+
+The Preference Bias is apparently also sometimes referred to as "Inductive Bias."
+
+Q: Of all possible decision trees, which would ID3 prefer?
+- Well, it prefers good splits near the top
+- Prefers correct trees over incorrect trees
+- Shorter trees (which stems from the fact that we're making good splits near the top)
+
+Decision Trees: Other Considerations
+------------------------------------
+How should we handle continuous attributes?
+Use ranges
+
+When do we stop?
+Algorithm says: when everything is classified correctly
+But what if we have two inputs that are the same, but with different labels? Error.
+No overfitting via an over-complicated tree. 
+- Cross-validation should work just fine here.
+- Or just set aside some validation data, and push the validation data along as you build the tree; see where error starts rising
+- Pruning: trimming a big tree into a smaller tree, based on what you lose
+
+Can we use decision tree for regression problems?
+Sure. We need to answer questions like:
+- How do we split? Can't sum over discrete categories anymore. Some measure of variance might work
+- What do we output? Either the average of a leaf, or maybe a local linear fit
+

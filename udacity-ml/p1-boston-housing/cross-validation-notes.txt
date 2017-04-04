@@ -1,0 +1,63 @@
+http://www.astroml.org/sklearn_tutorial/practical.html
+
+CROSS-VALIDATION
+"The general idea is as follows. The model parameters (in our case, the
+coefficients of the polynomials) are learned using the training set as above.
+The error is evaluated on the cross-validation set, and the meta-parameters (in
+our case, the degree of the polynomial) are adjusted so that this
+cross-validation error is minimized. Finally, the labels are predicted for the
+test set. These labels are used to evaluate how well the algorithm can be
+expected to perform on unlabeled data."
+
+We agree that there's definitely value in testing your model on points the
+model hasn't seen before.  But there's actually value to doing this in two
+different ways:
+1. As a final measure of how good your model is
+2. To get tuning feedback as you find your final model
+
+For #1, we use the testing dataset: A dataset that we don't touch or look at
+until we've made up our mind what the best model is.
+
+But if we just split into training and test, we would just find in our training
+data that the more complex the model we used, the lower our training error rate
+dropped.  And of course, we'd quickly get into overfitting territory. So we fit
+models of different complexities on the training data, and see how they perform
+on the cross-validation data set, #2.
+
+To evaluate these varying model complexities, we can plot Error versus Model
+Complexity, with two curves on the graph:
+1. Training error
+2. Cross-validation error
+Training error should drop continuously, whereas cross-validation error should drop
+initially (moving from underfitting to decent fitting) before starting to rise again
+(moving from decent fitting to overfitting).
+
+
+LEARNING CURVES
+In the above discussion of cross-validation, the number of training points was
+held constant and the complexity of the model was varied. But as the number of
+training points increases, we can sometimes fit a better model.
+
+Consider the example of trying to fit a sin curve using a line. No matter how
+much data we throw at that problem, we're going to plateau in terms of our
+ability to fit the data well when d=1 (line). So in the training data and the
+cross-validation data sets, as we increase the number of points, we should
+converge on the best line and have the same (suboptimal) error rate in both
+datasets.
+
+What if it's a much more complex model (d=20)? As we train on larger samples,
+we should get increasingly good at picking up on the trend as it emerges, so
+the cross-validation error should decrease and the training error should
+increase. (Why does training error increase? For n <= 20, training error should
+be 0. We can only increase from there.) These curves should eventually meet at
+the actual amount of error in the dataset, and we should get some idea of how
+much data we would need for a good fit.
+
+In practice, we won't actually know the true amount of error in the data.
+So visually:
+1. If the training and cross-validation error curves converge quickly as n
+   increases, then you have a high-bias model (underfitting). And getting more
+   data won't help you, because you're inherently underpowered.
+2. If training and cross-validation errors are way far apart for seemingly
+   reasonable amounts of data, then you have a high-variance model. Get more
+   data for a better fit!

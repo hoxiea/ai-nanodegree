@@ -1,0 +1,44 @@
+---
+title: 'Kelleher 2015: Chapter 4, Exercise 9'
+author: "Hamilton Hoxie Ackerman"
+date: "3/6/2017"
+output: html_document
+---
+
+In this problem, we're calculating the probability that a model ensemble that uses simple majority voting will make an incorrect prediction if...
+
+#### 9a)
+
+11 independent models, all of which have an error rate of 0.2
+
+Let $X = $ the number of models that make an incorrect decision. Then $X \sim Bin(11, 0.2)$ and we make an incorrect decision iff $X \gt 5$.
+
+```{r}
+pbinom(5, size=11, prob=0.2, lower.tail=FALSE)
+```
+
+Pretty unlikely, as you would expect with such a small error rate. (These are much stronger than weak learners, for example.)
+
+#### 9b)
+
+11 independent models, all of which have an error rate of 0.49.
+
+Let $X = $ the number of models that make an incorrect decision. Then $X \sim Bin(11, 0.49)$ and we make an incorrect decision iff $X \gt 5$.
+
+```{r}
+pbinom(5, size=11, prob=0.49, lower.tail=FALSE)
+```
+
+Just less than half, which seems reasonable. As we increase our sample size, this probability should decrease, as the standard error decreases like $\sqrt(n)$...
+
+#### 9c)
+
+21 independent models, all of which have an error rate of 0.49.
+
+Let $X = $ the number of models that make an incorrect decision. Then $X \sim Bin(21, 0.49)$ and we make an incorrect decision iff $X \gt 10$.
+
+```{r}
+pbinom(10, size=21, prob=0.49, lower.tail=FALSE)
+```
+
+The probability didn't decrease much, but $n=21$ isn't much bigger than $n=11$; certainly not large enough for the CLT to kick in, for example.

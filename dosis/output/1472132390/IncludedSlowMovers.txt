@@ -1,0 +1,7 @@
+Drugs In the Dosis Machine With Usage Rank > 250
+
+Rank |        NDC11 | Drug Name                          | Quant.
+------------------------------------------------------------------
+ 253 |  60505025103 | TIZANIDINE HCL 2 MG TAB            |   1041
+ 346 |  60505313508 | QUETIAPINE FUM 200 MG TAB          |    635
+ 370 |  00054022321 | QUETIAPINE FUM 300MG TAB           |    594

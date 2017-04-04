@@ -1,0 +1,45 @@
+---
+title: 'Kelleher 2015: Chapter 4, Exercise 2'
+author: "Hamilton Hoxie Ackerman"
+date: "3/4/2017"
+output: html_document
+---
+
+### 2a)
+
+I could do this by hand, but letting the computer do the work seemed like a better idea. Finding a plain ID3 implementation was harder than it should have been, but I guess that fancier things are used in practice. Here's one I found (via http://r.789695.n4.nabble.com/Is-there-an-ID3-implementation-in-R-td4696375.html):
+
+```{r, message=FALSE}
+# Enter the data manually
+ex2data <- data.frame(GoodBehavior = c(rep(FALSE, 3), rep(TRUE, 3)))
+ex2data$AgeLT30 <- c(TRUE, FALSE, TRUE, rep(FALSE, 3))
+ex2data$Drug <- c(rep(FALSE, 4), TRUE, FALSE)
+ex2data$Recidivist <- rep(c(TRUE, FALSE), 3)
+
+# Get ID3 classifier
+#install.packages("RWeka")
+library(RWeka)
+#WPM("refresh-cache") 
+#WPM("list-packages", "available")
+#WPM("install-package", "simpleEducationalLearningSchemes") 
+WPM("load-package", "simpleEducationalLearningSchemes") 
+ID3 <- make_Weka_classifier("weka/classifiers/trees/Id3") 
+```
+
+```{r}
+ID3(Recidivist ~ ., data = ex2data)
+```
+
+So...
+
+* If Age <30, then Recidivist is predicted to be true
+* If Age >= 30, then the Drug value provides the final prediction
+* GoodBehavior isn't needed at all
+
+### 2b)
+
+Since the age isn't less than 30, DrugDependent gives us our predicted value of TRUE.
+
+### 2c)
+
+Since the age is less than 30, our predicted value is TRUE.

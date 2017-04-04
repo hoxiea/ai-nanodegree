@@ -1,0 +1,22 @@
+Merged Usage-File Duplicates Based on Drug Name and Strength
+
+       NDC11 | Drug Name                          | Quant.
+-----------------------------------------------------------
+#62175026155 | NIFEDIPine ER 60MG*DNC* TAB (TAB)  |   1099
+ 49884067801 | NIFEDIPINE ER 60MG*DNC* TAB (TAB)  |     98
+
+#62175026237 | NIFEDIPine ER 90MG*DNC* TAB (TAB)  |    354
+ 49884067901 | NIFEDIPINE ER 90MG*DNC* TAB (TAB)  |     84
+
+#00781502207 | METHYLPREDNISOLONE 4 MG TAB (TAB)  |    483
+ 59746000106 | METHYLPREDNISolone 4 MG TAB (TAB)  |      7
+
+#00065804083 | ICAPS MV TABLET (TAB)              |    224
+ 00065804053 | ICAPS TABLET W/LUTEIN (TAB)        |     84
+
+#60505316500 | RISEDRONATE 35MG*DNC* TAB (TAB)    |     16
+ 60505316502 | RISEDRONATE SOD DR 35 MG TA (TAB)  |     12
+
+#50580033842 | IMODIUM MULTI-SYMPTOM REL C (TAB)  |    150
+ 50580033812 | IMODIUM MULTI-SYMPT REL CPL (TAB)  |     42
+

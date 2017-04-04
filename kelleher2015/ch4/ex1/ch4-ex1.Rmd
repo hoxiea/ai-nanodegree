@@ -1,0 +1,107 @@
+---
+title: "Kelleher 2015: Chapter 4, Exercise 1"
+author: "Hamilton Hoxie Ackerman"
+date: "3/4/2017"
+output: html_document
+---
+
+### 1a) (Who You Callin' a Moron?)
+
+The entropy in bits of the Scrabble letters [O, X, Y, M, O, R, O, N] is given by the following formula:
+
+$$H(t) = - \sum_{i=1}^l P(t = i) \times \log_2(P(t = i)),$$
+
+where $i$ ranges over the distinct letters in the set. Thus, we can calculate the entropy as follows:
+
+```{r}
+vectorEntropy <- function(x) {
+  probs <- table(x) / length(x)
+  probs <- probs[probs != 0]  # R will fill in 0s for factor levels that aren't in the vector. But log2(0) is NaN
+  -1 * sum(probs * log2(probs))
+}
+
+# Given a single string s, how many bits of entropy does
+# the string contain?
+# stringLettersEntropy("AAA") == 0
+# stringLettersEntropy("ABAB") == 1
+stringLettersEntropy <- function(s) {
+  letters <- strsplit(s, split="")[[1]]
+  vectorEntropy(letters)
+}
+H_total <- stringLettersEntropy("OXYMORON")
+
+# Of course, there's a library for this...
+# install.packages("entropy")
+# entropy.empirical(probs, unit="log2")
+```
+
+### 1b)
+
+To calculate the information gained by splitting these letters into two sets, one containing the vowels and the other containing the consonants, we have to figure out how much entropy remains after the split (which includes a weighting based on the relative sizes of the subsets) and then subtract the remaining entropy from the total (original entropy):
+
+```{r}
+vowels <- "OYOO"
+consonants <- "XMRN"
+remainingEntropy <- (4/8) * stringLettersEntropy(vowels) + (4/8) * stringLettersEntropy(consonants)
+H_total - remainingEntropy
+```
+
+### 1c)
+
+The maximum possible entropy in bits for a set of eight Scrabble pieces will be obtained when all eight pieces contain a different letter. The resulting entropy is
+
+```{r}
+vectorEntropy(LETTERS[1:8])
+```
+
+### 1d)
+
+In general, you want some entropy in your Scrabble hand. Lower entropy will mean many repeated letters, which can often make it hard to spell high-scoring/interesting words on the Scrabble board.
+
+Out of curiosity, I decided to investigate the relationship between entropy and word score. I found a text file containing what appeared to be a whole bunch of valid Scrabble moves, available at https://raw.githubusercontent.com/jonbcard/scrabble-bot/master/src/dictionary.txt.
+
+```{r}
+library(assertthat)
+options(stringsAsFactors = FALSE)
+
+scrabbleWords <- read.table("1_scrabble_dict.txt")
+colnames(scrabbleWords) <- "Word"
+
+points <- c(1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3,     # A, B, C, etc.
+            1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10)
+# assert_that(length(points) == 26)
+names(points) <- LETTERS
+
+scrabblePoints <- function(word) {
+  letters <- strsplit(word, split="")[[1]]
+  sum(points[letters])
+}
+
+scrabbleWords$Points <- sapply(scrabbleWords$Word, scrabblePoints)
+scrabbleWords$Entropy <- sapply(scrabbleWords$Word, stringLettersEntropy)
+with(scrabbleWords, plot(Entropy, Points, col = rgb(0, 0, 0, 0.3), main="Points vs. Entropy for All Legal Scrabble Plays"))
+```
+
+So, we see a positive, non-linear relationship between word entropy and the number of points earned.
+
+Notes: 
+
+* This doesn't take into account the 50-point bonus you get if you use all your letters. 
+* This doesn't take into account the word and letter multipliers on the board.
+* Most importantly, this isn't quite what Exercise 1d asked us; we were asked about the letters we'd prefer to have in our hand.
+
+Still, I noted that the maximum-point words have a moderate amount of entropy, which I *thought* confirmed my hunch that an ideal Scrabble hand would contain a few repeats of common letters: it seems like a few vowels, and then a few tiles along the lines of [T, R, N, S] would let you make some killer words.
+
+When I went to look at those killer words, they seemed... quizzically pizzazzy:
+
+```{r}
+head(scrabbleWords[order(-scrabbleWords$Points), ], 10)
+```
+
+Too pizzazzy, in fact: these words can't be formed with a valid set of Scrabble letters. It makes sense that you'd want a lot of Zs (worth 10 points each) in your word, but English Scrabble only contains 1 Z and 2 blanks (which don't even count for points), so all of our Top 10 words are invalid.
+
+A much better way to address this problem would be via simulation. It wouldn't be that hard to implement Scrabble, with the correct bonuses and letter distribution. 
+
+Two AIs could play many, many games against each other. On each turn, the game could calculate the entropy of the tiles in your hand, and then it could compute (with a dictionary and a search algorithm) the highest-scoring move available. This would yield great data about the preferable amount of entropy in a Scrabble hand.
+
+Of course, humans will probably see the highest-scoring move available only rarely. More interesting would be to calculate the point distribution for all possible plays, and then find some summary statistic that would better capture how a human might play. Maybe something like the 75th percentile would be more realistic.

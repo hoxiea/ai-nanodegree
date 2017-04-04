@@ -1,0 +1,2 @@
+X is conditionally independent of Y, given Z, if
+P(X|Y, Z) = P(X|Z)

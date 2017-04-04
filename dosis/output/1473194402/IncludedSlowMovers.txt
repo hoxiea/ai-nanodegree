@@ -1,0 +1,6 @@
+Included Slow Movers: Drugs In the Dosis Machine With Usage Rank > 250
+
+Rank |        NDC11 | Drug Name                          | Quant.
+------------------------------------------------------------------
+ 277 |  64980016201 | BETHANECHOL 25 MG TAB              |    236
+ 280 |  24385036881 | NAPROXEN 220 MG TAB                |    233

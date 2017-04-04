@@ -1,0 +1,47 @@
+[X] Getters
+	[X] raw_druginfos
+	[X] cleaned_druginfos
+	[X] ndc11s
+	[X] ndc9s
+	[X] drugunit
+	[X] quantity
+	[X] names
+	[X] strengths
+	[X] usage_rank
+[X] CHECKERS
+	[X] hasNDC9
+	[X] hasNDC11
+	[X] hasDrugunit
+	[X] hasQuantity
+	[X] hasUsageRank
+	[X] findRawDruginfoMatch
+	[X] findCleanedDruginfoMatch
+[X] SETTERS / GATEKEEPERS: actually modify the class variables
+	[X] raw_druginfos: just add it's not already in there
+	[X] cleaned_druginfos: just add it's not already in there
+	[X] ndc11s: check to make sure it's 11 DIGITS, then add to the array if not already seen
+	[X] ndc9s: check to make sure it's 9 DIGITS, then add to the array if not already seen
+	[X] names: just add it's not already in there
+	[X] strengths: just add it's not already in there
+	[X] drugunit:
+		make sure it's a valid drugunit
+		if null, then set to the incoming value
+		if not null, then make sure incoming value matches, throw otherwise
+	[X] quantity:
+		if null, then set to the incoming value
+		if not null, then add the incoming value to the current value
+	[X] usage_rank:
+		if null, then set to incoming value
+		if not null, then throw Exception; these shouldn't change
+[X] CHANGERS: Public things that call the gatekeepers
+	[X] absorbDruginfo: call raw_druginfo, CLEAN, call cleaned_druginfos, names, strengths
+	[X] absorbNDC11: call ndc11s, ndc9s
+	[X] absorbQuantity: quantity
+	[X] absorbDrugunit: drugunit
+	[X] absorbUsageRank: usage_rank
+COMPARERS
+[_] MERGERS
+	absorbUsageLineNDC11
+[X] SORTERS
+	[X] cmpName
+	[X] cmpUsage

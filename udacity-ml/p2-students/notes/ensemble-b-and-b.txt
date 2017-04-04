@@ -1,0 +1,33 @@
+Ensemble methods try to combine relatively simple rules into a more complicated rule.
+
+Rather than having to specify the rules themselves, we form the rules by considering small subsets of the data and then looking for differences in features between the two. For example, with Spam classification, we might take a random subset and notice that all the spam messages are in all caps, versus none of the ham messages being in all caps, so there's a rule. It might not generalize to the entire data set, but that's okay.
+
+Once we've come up with our rules, we apply our rules to the entire dataset and combine the results of the rules.
+
+Bagging (Bootstrap Aggregation) is really the simplest reasonable combination of these two steps: you take uniformly random (with replacement) subsets, fit to the subset, and then average all the results.
+
+Getting from Bagging to Boosting
+--------------------------------
+Instead of sampling randomly, we'll learn the most by picking subsets that contain "hard" elements. As in, elements that we can't handle very well, given our current rules. For example, if your spam classifier does fine with some elements and struggles with others, focus on the struggle!
+
+Instead of the mean, we're going to use a weighted mean. Weights will be very important, coming soon.
+
+A key idea is that error can actually be expressed as a probability: given a distribution D on the input data, the error of a classifier is the probability that the classifier mismatches the true label value. So if we get 2 right and 2 wrong, but the 2 right inputs are much more likely, then we're actually doing pretty well.
+
+So boosting is as follows:
+Given training data (x_i, y_i) with y_i in {-1, +1}
+For t = 1 to T:
+    construct D_t, a distribution on the input data
+    find weak classifier h_t(x) with small (<0.5) error epsilon_t = Pr(h_t(x_i) != y_i) over D_t
+Somehow combine all h_t into H_final
+
+Q: How to construct these D_t distributions?
+A: Iterate.
+D_1(i) = 1/n   (uniform over the data; no reason to believe that any elements are harder than any others)
+
+And D_(t+1)(i) = D_t(i) * exp(-alpha_t * y_i * h_t(x_i)) / z_t, where
+     alpha_t = 0.5 * ln((1 - eps_t) / eps_t)
+
+Q: Where does H_final come from?
+A:
+H_final(x) = sgn(sum_t [alpha_t * h_t(x)])

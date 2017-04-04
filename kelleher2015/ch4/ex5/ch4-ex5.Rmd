@@ -1,0 +1,62 @@
+---
+title: 'Kelleher 2015: Chapter 4, Exercise 5'
+author: "Hamilton Hoxie Ackerman"
+date: "3/5/2017"
+output: html_document
+---
+
+In this exercise, we're going to explore **bagging** with decision trees, often referred to as **random forests**. Let's start with some data...
+
+```{r}
+# Available at http://bit.ly/kelleher2015-ch4-ex5
+ex5data <- read.csv("ex5data.csv")
+```
+
+#### 5a)
+Assume we generated the following bootstrap samples (taken with replacement, obviously):
+
+```{r}
+bs1 <- ex5data[c(1,2,2,5,5), c("Exercise", "Family", "Risk")]
+bs2 <- ex5data[c(1,2,2,4,5), c("Smoker", "Obese", "Risk")]
+bs3 <- ex5data[c(1,1,2,4,5), c("Obese", "Family", "Risk")]
+```
+
+Let's go ahead and build some decision trees based on these samples:
+
+```{r, message=FALSE}
+# Get ID3 classifier
+#install.packages("RWeka")
+library(RWeka)
+#WPM("refresh-cache") 
+#WPM("list-packages", "available")
+#WPM("install-package", "simpleEducationalLearningSchemes") 
+WPM("load-package", "simpleEducationalLearningSchemes") 
+ID3 <- make_Weka_classifier("weka/classifiers/trees/Id3") 
+```
+
+```{r}
+m1 <- ID3(Risk ~ ., data = bs1)
+m2 <- ID3(Risk ~ ., data = bs2)
+m3 <- ID3(Risk ~ ., data = bs3)
+```
+
+Examining these models, they're interesting in the sense that all of them use only one variable, despite having two variables to use. The first one, for example, uses only Exercise, because using only Exercise leads to a tree that's entirely consistent with the training data.
+
+```{r}
+m1
+```
+
+But even when the model isn't totally consistent, it still only uses one variable, as in m3:
+
+```{r}
+m3
+```
+
+Using Obese as above gets it right for 4/5 observations. But since there are both low-risk and high-risk patients at the combinations of factors (Obese = FALSE, Family = YES), the model can never be consistent with the data.
+
+#### 5b)
+
+Models 1 and 3 predict "high" for this input. Model 2 predicts "low". So the majority decision reached by our random forest is "high."
+
+
+

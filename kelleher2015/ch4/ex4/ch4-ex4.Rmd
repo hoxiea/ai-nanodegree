@@ -1,0 +1,21 @@
+---
+title: 'Kelleher 2015: Chapter 4, Exercise 4'
+author: "Hamilton Hoxie Ackerman"
+date: "3/5/2017"
+output: html_document
+---
+
+In this exercise, we're doing post-pruning on a decision tree, using the **reduced error pruning** approach.
+
+Decision trees are incredibly flexible learning models, in the sense that they can adapt to every little bit of variation in the training data if you let them grow large enough. In past coverage of decision trees I've seen, pre-pruning was always emphasized: the maximum depth of the tree was a hyperparameter to be determined via cross-validation, and by limiting the depth, we would limit the complexity and hopefully avoid overfitting.
+
+This book seems to prefer post-pruning, though, or at least gives it more emphasis than I've seen previously. (Page 159: "Pre-pruning approaches are computationally efficient and can work well for small datasets. By stopping the partitioning of the data early, however, induction algorithms that use pre-pruning can fail to create the most effective trees because they miss interactions between features that emerge within subtrees that are not obvious when the parent nodes are being created.")
+
+Here, we'll explore **reduced error pruning**: after the tree has been completely grown on some training data (with some validation data set aside), you search in an iterative, bottom-up, left-to-right fashion for subtrees that don't do strictly better than their parent node. If you find one, then you eliminate it from the tree, since it's essentially added complexity without any improvement in classification accuracy.
+
+Searching the decision tree on page 173 bottom-up from left to right, we first consider the subtree that splits on BloodPressure. The majority prediction at this subtree node is FALSE, which is the correct prediction for all 3 observations from the validation set that end up at this subtree node (IDs: 1, 3, 5). So this subtree is definitely getting eliminated, since it can't do better than "perfect." (But if you actually check, splitting on BloodPressure is strictly worse: it gets both IDs 1 and 5 incorrect.)
+
+Pruning this subtree leaves us with a depth-1 decision tree that essentially tells you to use ChestPain as the predictor for HeartDisease. As it should: there's a one-to-one correlation between ChestPain and HeartDisease in our validation data, so the tree probably doesn't need to be any more complex than that.
+
+We can technically consider pruning this depth-1 decision tree and just guessing the majority target value (FALSE in this case), but obviously "5/5 with the depth-1 tree" is better than "3/5 guessing the majority", so we stick with the depth-1 tree.
+

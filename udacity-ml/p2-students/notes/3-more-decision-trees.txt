@@ -1,0 +1,6 @@
+Entropy: controls how a DT decides where to split the data
+
+entropy = sum_i [- p_i * log_2 (p_i)], where
+i spans the classes
+p_i := fraction of examples in class i
+Bounded between 0 (pure) and 1 (evenly split)

@@ -1,0 +1,153 @@
+---
+title: 'Kelleher 2015: Chapter 4, Exercise 3'
+author: "Hamilton Hoxie Ackerman"
+date: "3/4/2017"
+output: html_document
+---
+
+## Exercise 3
+
+```{r, results="hide"}
+# Data available in Google Sheet at http://bit.ly/kelleher2015-ch4-ex3
+ex3data <- read.csv("ex3data.csv")
+```
+
+### 3a)
+
+To calculate the entropy for this dataset, we do a standard entropy calculation for the target:
+
+```{r}
+vectorEntropy <- function(x) {
+  probs <- table(x) / length(x)
+  probs <- probs[probs != 0]  # R will fill in 0s for factor levels that aren't in the vector. But log2(0) is NaN
+  -1 * sum(probs * log2(probs))
+}
+
+H <- vectorEntropy(ex3data$AnnualIncome)
+H
+```
+
+### 3b)
+
+We can also calculate the Gini index, another measure of impurity, via the following formula:
+
+$$Gini(t, D) = 1 - \sum_{l \in levels(t)} P(t = l) ^ 2$$
+
+```{r}
+vectorGini <- function(x) {
+  probs <- table(x) / length(x)
+  1 - sum(probs ** 2)
+}
+vectorGini(ex3data$AnnualIncome)
+```
+
+### 3c)
+
+When splitting on a continuous variable in a decision tree setting, it seems like there are infinitely many split points. But in practice, the only ones worth considering are halfway between the values where you have a change in the target variable, when the data is sorted by the continuous variable.
+
+Let's sort our data by Age:
+
+```{r}
+ex3dataSorted <- ex3data[order(ex3data$Age), ]
+ex3dataSorted
+```
+
+There's no point in considering any values between 18 (Observation 3) and 24 (Observation 6) for the split, for example: your information gain will always be greater if those two values are kept together, since they have the same label. 
+
+But a split between 24 and 28 (at 26, in fact) might make sense. Other places where a split could be optimal are 39.5 and 45.
+
+Just looking at the data, I suspect that a split at 26 will be optimal. This partitions the data into two groups: one of size 2 with perfect purity, and the other with 5/6 values the same. (It should be strictly better than splitting at 45, for example, since splitting at 45 partitions the data into two groups: one that's also of size 2 with perfect purity, and the other with more chaos in it.)
+
+But let's go ahead and do the calculation:
+
+```{r}
+# Split at 26
+H - ((2/8) * vectorEntropy(ex3dataSorted$AnnualIncome[1:2]) + (6/8) * vectorEntropy(ex3dataSorted$AnnualIncome[3:8]))
+
+# Split at 39.5
+H - ((5/8) * vectorEntropy(ex3dataSorted$AnnualIncome[1:5]) + (3/8) * vectorEntropy(ex3dataSorted$AnnualIncome[6:8]))
+
+# Split at 45
+H - ((6/8) * vectorEntropy(ex3dataSorted$AnnualIncome[1:6]) + (2/8) * vectorEntropy(ex3dataSorted$AnnualIncome[7:8]))
+```
+
+Indeed, the split at 26 results in the greatest information gain.
+
+### 3d)
+
+We can make calculating the information gain (based on entropy) for the various categorical features a bit easier via:
+
+```{r}
+library(assertthat)
+
+splitFactors <- c("Education", "MaritalStatus", "Occupation")
+target <- "AnnualIncome"
+
+# A general function for calculating the weighted "chaos" in the (target variable of the) subsets 
+# that result from splitting `data` into the various subsets defined by equal `splitFactor` values.
+# Note that "chaos" can be entropy, Gini impurity, etc.
+weightedChaosRemaining <- function(data, splitFactor, target, chaosFunction) {
+  Xs <- split(data, data[, splitFactor])
+  subsetChaoses <- lapply(Xs, function(X) { chaosFunction(X[, target]) })
+  subsetWeights <- lapply(Xs, function (df) { nrow(df) / nrow(data) })
+  assert_that(all.equal(names(subsetChaoses), names(subsetWeights)))  # order is the same in both vectors
+  sum(unlist(subsetChaoses) * unlist(subsetWeights))
+}
+
+weightedEntropyRemaining <- function(data, splitFactor, target) {
+  weightedChaosRemaining(data, splitFactor, target, vectorEntropy)
+}
+
+infoGain <- H - sapply(splitFactors, function(sf) { weightedEntropyRemaining(ex3data, sf, target) })
+infoGain
+```
+
+Looking at the numbers, these aren't too surprising. 
+
+Education seems informative for the initial split: 
+
+* everyone with a Bachelor's Degree has the same target value
+* the one Doctorate ends up in a category of his own
+* the four High School degrees are split 2-2 between two target values
+
+Occupation is an interesting variable to split on too, because there are four Occupation levels for just eight observations:
+
+* the one Armed Forces has a category of his own
+* both Transport have the same target value
+* Professional target values are split 2-1
+* Agriculture target values are split 1-1
+
+As it says on page 144, entropy-based information gain gives preference to split factors with many levels, since you tend to end up with small, pure subsets. One way to adjust for this is to calculate the **information gain ratio** instead, which we'll do in the next section.
+
+### 3e)
+
+To calculate the information gain **ratio** for a feature, you divide the information gain for that feature by the amount of entropy in that feature. 
+
+The idea is this: If your feature has a bunch of sparsely populated levels, then the information gain will be high (since many of those could lead to pure subsets), but the entropy of the feature itself will also be high, since those sparsely populated levels add a lot of randomness.
+
+```{r}
+factorEntropies <- apply(ex3data[names(infoGain)], 2, vectorEntropy)
+infoGain / factorEntropies
+```
+
+When calculating raw information gains, Education and Occupation were comparable. But once we take the distribution of factor values into account, Education is more informative, since it achieves the same information gain with just 3 factor levels (1 singleton), whereas Occupation achieves its information gain using 4 factor levels (1 singleton).
+
+### 3f)
+
+Finally, we can calculate information gain using the Gini index for Education, MaritalStatus, and Occupation. We do this as we did before: subtract the weighted subset Gini impurities from the total Gini impurity.
+
+```{r}
+weightedGiniRemaining <- function(data, splitFactor, target) {
+  weightedChaosRemaining(data, splitFactor, target, vectorGini)
+}
+
+totalGini <- vectorGini(ex3data$AnnualIncome)
+
+splitFactors <- c("Education", "MaritalStatus", "Occupation")
+target <- "AnnualIncome"
+
+giniGain <- totalGini - sapply(splitFactors, function(sf) { weightedGiniRemaining(ex3data, sf, target) })
+giniGain
+```
+
+Education comes out ahead here, too, as it did in the other two comparisons we did previously. Seems like Education would make a great initial node in a classification tree.
