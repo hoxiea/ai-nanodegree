@@ -7,9 +7,9 @@ You want to quickly determine if I'm a strong enough programmer to complete the 
 Here are some of my programming highlights.
 
 ## Project Euler in Python3 ([code](/euler-python3/))
-I've solved 119 Project Euler problems in **Python3**, putting me in the Top 1% of solvers:
+I've solved 122 Project Euler problems in **Python3**, putting me in the Top 1% of solvers:
 
-![Project Euler badge: 119 solved](https://projecteuler.net/profile/hoxiea2.png "Project Euler badge")
+![Project Euler badge: 122 solved](https://projecteuler.net/profile/hoxiea2.png "Project Euler badge")
 
 In the spirit of the website, I won't post all of my solutions, but I'll highlight a few of my favorites:
 
@@ -28,7 +28,7 @@ I've included the most technically complex program in the suite: the Dosis Optim
 This program takes as input:
 
 * an exported list of all the current drugs in the Dosis machine
-* usage data (at the individual RX level) from the past 1-3 months
+* usage data (at the individual prescription level) from the past 1-3 months
 * many possible configuration options
 
 It then uses **7 classes and about 1200 lines of helper functions** to:
